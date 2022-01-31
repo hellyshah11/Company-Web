@@ -1,9 +1,14 @@
-.navbar{
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.nav-bar{
     position: relative;
 }
-.nav-item a{
+.nav-list a{
 	color:#87AAAA;
-	padding: 0px;
 	font-size: 18px;
 }
 .nav-btn{
@@ -30,4 +35,268 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/* Home page  */
+.home-content{
+    margin-top: 6rem;
+}
+.home-soc{
+    margin-top: 17rem;
+    display: flex;
+}
+.home-icons{
+    margin: 10px 20px;
+}
+.home-icons i{
+    padding: 10px;
+    font-size: 25px;
+}
+.icon-line{
+    border-right:2px solid #EDB161;
+    font-weight: 500;
+    margin:25px 0;
+}
+.home-text{
+    text-transform: capitalize;
+    width: 500px;
+    color:#47645D;
+}
+.home-text h1{
+    font-size: 50px;
+}
+.home-text h4{
+    color:#87AAAA;
+    font-size: 15px;
+    margin-top:30px;
+    width: 400px;
+}
+.home-img img{
+    width: 550px;
+    height:450px;
+}
+.home-text,.home-img{
+   margin:0 auto;
+}
+
+/* Jaydeep Ravat */
+.service, .about {
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.custom-active {
+    border-left: 2px solid #EDB161;
+    border-image: linear-gradient(to top, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+    border-bottom: 2px solid black;
+    border-image: linear-gradient(to right, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+} /* 50% border left and bottom */
+
+.img-about {
+    width: 100%;
+    height: 250px;
+    background: url('images/about-us-rect.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.pink-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(254,211,153,0.7);
+}
+.r-text1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #EDB161;
+}
+.img-custom {
+    width: 80%;
+    height: 280px;
+    background: url('images/about-img.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.orange-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(237, 177, 97, 0) 20%, rgba(237, 177, 97, 0.4) 80%);
+}
+.l-text {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 280px;
+    color: white;
+    -webkit-text-stroke: 2px #87AAAA;
+}
+.r-text2 {
+    color: #87AAAA;
+}
+.connect-text {
+    color: #EDB161;
+    display: flex;
+    margin-top: 50px;
+}
+.connect-text div {
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #EDB161;
+}
+.connect-text i {
+    color: white;
+    font-size: 25px;
+    padding:9px;
+}
+.connect-text p {
+    margin-top: 15px;
+    font-size: 25px;
+}
+.service h2{
+    font-size: 46px;
+    color: #EDB161;
+}
+.h-line {
+    margin-top: 40px;
+    width: 100%;
+    height: 1px;
+    background-color: #87AAAA;
+}
+.container h2{
+    text-transform: capitalize;
+}
+.outer-circle {
+    border: 2px solid #EDB161;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 60px auto 0 auto;
+}
+.inner-circle {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 50px auto 0 auto;
+    border-radius: 50%;
+    background-color: #f8f1e7;
+}
+.v-line {
+    height: 100%;
+    width: 2px;
+    background-color: #87AAAA;
+    display: block;
+    margin: 0 auto;
+}
+.service-text {
+    color: #87AAAA;
+    padding-top: 40px;
+}
+.all-service {
+    position: absolute;
+    font-size: 48px;
+    left: 0;
+    line-height: 1;
+    bottom: -10%;
+    color: white;
+    -webkit-text-stroke: 1px #87AAAA;
+    word-wrap: break-word;
+}
+.blue-img {
+    width: 80%;
+    height: 400px;
+    background: url('images/about-us-rect.png');
+    background-size: cover;
+    /* overflow: hidden; */
+    position: relative;
+}
+.blue-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #87AAAA -60.91%, rgba(135, 170, 170, 0) 100%);
+    width: 100%;
+    height: 100%;
+}
+.title {
+    position: absolute;
+    margin: 30px -30px;
+    padding: 10px;
+    background-color: #EDB161;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.details {
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+}
+/* Helly shah */
+.port-sec{
+    display: block;
+}
+.port-sec h2{
+    text-align:center;
+    text-transform: capitalize;
+    color: #EDB161;
+    font-weight: 700;
+}
+.port-head{
+    display: flex;
+    margin:2rem 31rem;
+}
+.port-head h5{
+    color:#87AAAA;
+    width: 80px;
+    font-size: 20px;
+    margin:20px 5px;
+}
+.port-line{
+    border-left: 3px dotted black;
+    z-index: -1;
+    margin: 0 10px;
+}
+.port-container{
+    margin:10px 20px;
+    align-items: center;
+}
+.port-content h2{
+    color:#47645D;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+}
+.port-content h4{
+    color:#EDB161;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.port-img-box{
+    width: 60%;
+    height: 400px;
+    background-color:#C4C4C4;
+    margin: auto;
+}
+.port-box{
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #EDB161; 
+    margin: 30px;  
+}
+.port-box i{
+    padding: 8px;
+    color:white;
+    font-size: 18px;
 }
