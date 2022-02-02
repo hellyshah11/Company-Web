@@ -5,42 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeadMad Technologies</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.js"></script>
-    <script src="https://kit.fontawesome.com/87da49c80d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="libraries/Owl/dist/assets/owl.carousel.min.css">   <!-- owl carousel-->
+    <link rel="stylesheet" href="libraries/Owl/dist/assets/owl.theme.default.min.css"> <!-- owl carousel-->
+    <link rel="stylesheet" href="libraries/css/bootstrap.css"> <!-- css bootstarp-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/font.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg nav-bar">
         <div class="collapse navbar-collapse">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <ul class="navbar-nav mr-auto m-5 ">
-                <li class="nav-item active pr-4 custom-active">
+                <li class="nav-item nav-list custom-active pr-4">
                     <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item pr-4">
+                <li class="nav-item nav-list pr-4">
                     <a class="nav-link" href="#">About Us</a>
                 </li>
-                <li class="nav-item pr-4">
+                <li class="nav-item nav-list pr-4">
                     <a class="nav-link" href="#">Services</a>
                 </li>
             </ul>
             <ul class="navbar-nav me-auto ms-auto mb-lg-0">
-                <li class="nav-item nav-img" >
+                <li class="nav-item nav-list nav-img" >
                     <a href="#"> <img  src="./images/Dm logo 1.png" alt="deadmad logo"></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto m-5">
-                <li class="nav-item pr-4">
+                <li class="nav-item nav-list pr-4">
                     <a class="nav-link" href="#">Portfolio</a>
                 </li>
                 <button class="nav-btn btn" type="submit">Contact Us</button>  
             </ul>
         </div>
     </nav>  
+    <!-- Home Page -->
+    <section class="HomePage">
+        <div class="container-fluid  home-content">
+            <div class="row">
+                <div class="col-md-2 home-soc ">
+                    <div class="home-icons">
+                        <i class="fab fa-instagram d-block"></i>
+                        <i class="fab fa-dribbble d-block"></i>
+                        <i class="fab fa-linkedin-in d-block"></i>
+                        <i class="fab fa-behance d-block"></i>
+                    </div>
+                    <div class="icon-line"></div>
+                </div>
+                <div class="col-md-5 home-text">
+                    <h1>Deadmad A Highly Passionated IT Professionals To Bring An Inovation To The World</h1>
+                    <h4>We at Deadmad Technologies are always curious to get best out of us by brainstorming    the criticals to make it happen in reallife</h4>
+                </div>
+                <div class="col-md-5 home-img">
+                    <img src="./images/Group 518.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="about">
         <div class="container">
             <div class="row gx-0">
@@ -65,18 +89,20 @@
                     </div>
                 </div>
                 <div class="col-md-4 r-text2">
-                    <p>We are a team of highly traind and passionated people that have a thoughtful mindset to bring value to your respecful </p>
-                    <p>idea and we are a community of people that will produce a very useful solutions to people with perfect User experience with a very minimal and easy to interact User Interface.</p>
+                    <p>We are a team of highly traind and passionated people that have a thoughtful mindset to bring value to your respecful idea </p>
+                    <p> and we are a community of people that will produce a very useful solutions to people with perfect User experience with a very minimal and easy to interact User Interface.</p>
                     <div class="connect-text">
-                    <div><i class="bi bi-box-arrow-up-right"></i></div><p>Connect with us</p> <!-- add icon in i using font-awesome -->
+                        <div><i class="fas fa-external-link-alt"></i></div>
+                        <p>Connect with us</p> <!-- add icon in i using font-awesome -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="service"> 
         <div class="container">
-            <h2>Servies</h2>
+            <h2>Services</h2>
             <h2>To get advantage of</h2>
             <div class="h-line"></div>
             <div class="row">
@@ -99,7 +125,7 @@
                 <div class="col-md-4">
                     <div class="blue-img">
                         <div class='blue-overlay'></div>
-                        <div class="title">UI/UI</div>
+                        <div class="title">UI/UX</div>
                         <div class="details">UI/UX is a core of an any projects to bring life to it and make it more interactive with people and with correct concept it will help to connect perfectly with people</div>
                     </div>
                 </div>
@@ -113,5 +139,68 @@
             </div>
         </div>
     </div>
+
+    <div class="portfolio mt-5">
+        <div class="row">
+            <div class="col-md-12 port-sec mt-5">
+                <h2>The Projects we Created</h2>
+                <h2>to solve the problems of many</h2>
+            </div>
+            <div class="col-md-12 port-head">
+                <h5 >See Our Portfolio</h5>
+                <div class="port-line"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="owl-carousel">
+                <div class="item i-1">
+                    <div class="i-cont">
+                        <h2>Lorem Ipsum</h2>
+                        <h4>Lorem Ipsum</h4>
+                        <div class="p-grey"></div>
+                    </div>
+                </div>
+                <div class="item i-2">
+                    <div class="i-cont">
+                        <div class="i-cont">
+                            <h2>Lorem Ipsum</h2>
+                            <h4>Lorem Ipsum</h4>
+                            <div class="p-grey"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="i-cont i-1">
+                        <div class="i-cont">
+                            <h2>Lorem Ipsum</h2>
+                            <h4>Lorem Ipsum</h4>
+                            <div class="p-grey"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="i-cont i-2">
+                        <div class="i-cont">
+                            <h2>Lorem Ipsum</h2>
+                            <h4>Lorem Ipsum</h4>
+                            <div class="p-grey"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-nav">
+                <button class="l-btn" type="button" id='l-btn'><i class="fa fa-arrow-left"></i></button>
+                <button class="r-btn" type="button"><i class="fa fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="libraries/jquery.js"></script>
+    <script src="Libraries/Owl/dist/owl.carousel.min.js"></script> <!-- owl carousel --> 
+    <!-- for font awesome -->
+    <script src="https://kit.fontawesome.com/87da49c80d.js" crossorigin="anonymous"></script>
+    <!-- for js bootstrap -->
+    <script src="libraries/js/bootstrap.js"></script>  
+
+    <script src="script.js"></script>
 </body>
 </html>
