@@ -37,12 +37,14 @@ html, body {
     transform: translate(-50%, -50%);
 }
 /* Home page  */
-.home-content{
-    margin-top: 6rem;
+.HomePage {
+    padding-top: 90px;
 }
 .home-soc{
-    margin-top: 17rem;
     display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .home-icons{
     margin: 10px 20px;
@@ -53,8 +55,8 @@ html, body {
 }
 .icon-line{
     border-right:2px solid #EDB161;
-    font-weight: 500;
-    margin:25px 0;
+    height: 190px;
+    width: 2px;
 }
 .home-text{
     text-transform: capitalize;
@@ -70,12 +72,16 @@ html, body {
     margin-top:30px;
     width: 400px;
 }
-.home-img img{
-    width: 550px;
-    height:450px;
-}
-.home-text,.home-img{
+.home-text, .home-img{
     margin:0 auto;
+    position: relative;
+}
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EDB161;
+    opacity: 0.6;
 }
 
 /* Jaydeep Ravat */
@@ -106,7 +112,8 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(254,211,153,0.7);
+    background: #f8f1e7;
+    opacity: 0.8;
 }
 .r-text1 {
     font-size: 36px;
@@ -132,7 +139,6 @@ html, body {
 .l-text {
     font-size: 80px;
     font-weight: 600;
-    line-height: 280px;
     color: white;
     -webkit-text-stroke: 2px #87AAAA;
 }
@@ -180,14 +186,39 @@ html, body {
     border-radius: 50%;
     display: block;
     margin: 60px auto 0 auto;
+    position: relative;
+}
+.inner-text{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.inner-text span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    transform-origin: 0 60px;
 }
 .inner-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 50px;
     height: 50px;
     display: block;
-    margin: 50px auto 0 auto;
     border-radius: 50%;
     background-color: #f8f1e7;
+}
+.inner-circle i {
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    transform: rotate(60deg);
 }
 .v-line {
     height: 100%;
@@ -250,26 +281,50 @@ html, body {
     color: #EDB161;
     font-weight: 700;
 }
+
 .port-head{
-    display: flex;
-    margin:2rem 31rem;
-}
-.port-head h5{
-    color:#87AAAA;
-    width: 80px;
-    font-size: 20px;
-    margin:20px 5px;
+    text-align:center;
 }
 .port-line{
-    border-left: 3px dashed black;
-    z-index: -1;
-    margin: 0 10px;
+    border-right: 3px dashed black;
+    height: 100px;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+}
+.port-line h5{
+    color:#87AAAA;
+    font-size: 20px;
+    line-height: 100px;
+    margin-right: 20px;
+}
+.port-container{
+    margin:10px 20px;
+    align-items: center;
+}
+.port-content h2{
+    color:#47645D;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+}
+.port-content h4{
+    color:#EDB161;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.port-img-box{
+    width: 20%;
+    height: 400px;
+    background-color:#C4C4C4;
+    margin: auto;
 }
 
 /* Jaydeep Ravat */
 .i-cont {
     position: relative;
-    width: 400px;
+    width: 100%;
     height: 600px;
 }
 .i-cont h2 {
@@ -294,10 +349,10 @@ html, body {
     background-color: grey;
 }
 .i-1 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .i-2 {
-    margin-top: 80px;
+    margin-top: 120px;
 }
 .custom-nav {
     text-align: center;
@@ -310,4 +365,184 @@ html, body {
     width: 60px;
     border: none;
     margin-bottom: 20px;
+}
+/* Helly shah */
+.comments{
+    margin:5rem;
+}
+.coment-head h1{
+    margin:0 50px;
+    text-transform: capitalize;
+    color: #EDB161;
+    font-weight: 700;
+    width: 70%;
+}
+.coment-para p{
+    color:#87AAAA;
+    margin:15px 0;
+    width: 80%;
+}
+.coment-sec{
+    margin:6rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coment-1{
+    background-color:#93b8b8;
+    width:100%;
+    text-align: center;
+    margin: 20px 10px;
+    border: 25px solid #cbe4e4;
+    border-radius: 200px;
+    padding: 20px;
+}
+.coment-1 img{
+    width: 45px;
+    height: 55px;
+    padding:0 0 10px 0;
+    margin:-55px 0 5px;
+}
+.coment-1 h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.coment-1 p{
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+    text-align: left;
+    margin: 10px;
+}
+.coment-2{
+    background-color:#93b8b8;
+    width: 100%;
+    text-align: center;
+    margin: 20px 10px;
+    border: 25px solid #cbe4e4;
+    border-radius: 200px;
+    padding: 30px;
+}
+.coment-2 img{
+    width: 65px;
+    height: 75px;
+    padding:0 0 10px 0;
+    margin:-55px 0 20px;
+}
+.coment-2 h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.coment-2 p{
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+    text-align:left ;
+    margin:15px;
+}
+/* footer */
+.footer-top{
+    background-color: #fcf3ed;
+    padding: 10px;
+}
+.footer-sec img{
+    margin:20px 0 25px;
+    width: 100px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i,p{
+    margin: 10px 10px;
+    color:#47645D;
+}
+.footer-comp h3{
+    font-size:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-comp p{
+    margin: 20px;
+    text-transform: uppercase;
+}
+.footer-connect h2{
+    color: #EDB161;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+}
+.input-container i {
+    background: #EDB161;
+    color: white;
+    min-width: 40px;
+    padding: 10px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: -50px;
+    text-align: center;
+}
+.footer-form input{
+    border: 2px solid black;
+    width:70%;
+    outline: none;
+    height: 50px;
+    background-color: #fcf3ed;
+    padding: 10px 20px;
+}
+.footer-bottom{
+    background-color: #EDB161;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 16px;
+}
+
+.home-left {
+    width: 100%;
+    height: 400px;
+    background: url('Images/about-us-rect.png');
+    position: relative;
+}
+.overlay-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #EDB161 40%, rgba(255,255,255,1) 60%, #47645D 100%); 
+    opacity: 0.6;
+}
+.overlay-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #47645D 20%, rgba(255,255,255,1) 40%, #EDB161 100%); 
+    opacity: 0.6;
+}
+
+.t-icon {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -20%);
+}
+.b-icon {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    font-size: 32px;
+    transform: translate(-50%, -10%);
+}
+.home-right {
+    position: relative;
+    background: url('Images/about-us-rect.png');
+    width: 100%;
+    height: 400px;
 }
