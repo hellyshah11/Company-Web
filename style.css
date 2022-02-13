@@ -36,6 +36,59 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* media query for responsiveness for navbar */
+@media only screen  and (min-width:720px) and (max-width:992px) {
+    .nav-bar{
+        width:100%;
+    }
+    .nav-list a{
+        color:#87AAAA;
+        font-size: 15px;
+    }
+    .nav-btn{
+        margin:0;
+        padding: 1.5px 8px;
+    }
+    .nav-img {
+        width: 120px;
+        height: 127px;
+        
+    }
+    .nav-img img{
+        width: 80px;
+        height: 87px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+} 
+@media only screen  and (min-width:576px) and (max-width:720px) {
+    .nav-bar{
+        width:100%;
+    }
+    .nav-list a{
+        color:#87AAAA;
+        font-size: 10px;
+    }
+    .nav-btn{
+        margin:0;
+        padding: 1px 6px;
+        font-size: 13px;
+    }
+    .nav-img {
+        width: 90px;
+        height: 97px;
+        margin: 0;
+    }
+    .nav-img img{
+        width: 60px;
+        height: 67px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
 /* Home page  */
 .HomePage {
     padding-top: 90px;
@@ -76,12 +129,157 @@ html, body {
     margin:0 auto;
     position: relative;
 }
-.img-overlay {
+/* Jaydeep ravat */
+.home-left {
+    width: 100%;
+    height: 400px;
+    background: url('images/about-us-rect.png');
+    position: relative;
+}
+.overlay-left {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #EDB161;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #EDB161 40%, rgba(255,255,255,1) 60%, #47645D 100%); 
     opacity: 0.6;
+}
+.overlay-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #47645D 20%, rgba(255,255,255,1) 40%, #EDB161 100%); 
+    opacity: 0.6;
+}
+.t-icon {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -20%);
+}
+.b-icon {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    font-size: 28px;
+    transform: translate(-50%, -10%);
+}
+.home-right {
+    position: relative;
+    background: url('images/about-us-rect.png');
+    width: 100%;
+    height: 400px;
+}
+/* media query for responsiveness for home page */
+@media only screen  and (min-width:720px) and (max-width:992px) {
+    .HomePage {
+        padding-top: 50px;
+    }
+    .home-icons{
+        margin: 10px 18px;
+    }
+    .home-icons i{
+        padding: 6px;
+        font-size: 15px;
+    }
+    .icon-line{
+        height: 120px;
+        width: 2px;
+    }
+    .home-text{
+        width: 300px;
+    }
+    .home-text h1{
+        font-size: 30px;
+    }
+    .home-text h4{
+        color:#87AAAA;
+        font-size: 12px;
+        margin-top:30px;
+        width: 250px;
+    }
+    .home-left {
+        width: 100%;
+        height: 300px;
+    }
+    .overlay-left {
+        width: 100%;
+        height: 100%;
+    }
+    .overlay-right {
+        width: 100%;
+        height: 100%;
+    }
+    .t-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .b-icon {
+        width: 35px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .home-right {
+        width: 100%;
+        height: 300px;
+    }
+}
+@media only screen  and (min-width:576px) and (max-width:720px) {
+    .HomePage {
+        padding-top: 40px;
+    }
+    .home-icons{
+        margin: 6px 10px;
+    }
+    .home-icons i{
+        padding: 4px;
+        font-size: 12px;
+    }
+    .icon-line{
+        height: 90px;
+        width: 2px;
+    }
+    .home-text{
+        width: 250px;
+    }
+    .home-text h1{
+        font-size: 25px;
+    }
+    .home-text h4{
+        font-size: 10px;
+        margin-top:15px;
+        width: 200px;
+    }
+    .home-left {
+        width: 100%;
+        height: 200px;
+    }
+    .overlay-left {
+        width: 100%;
+        height: 100%;
+    }
+    .overlay-right {
+        width: 100%;
+        height: 100%;
+    }
+    .t-icon {
+        width: 30px;
+        height: 35px;
+    }
+    .b-icon {
+        width: 28px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .home-right {
+        width: 100%;
+        height: 200px;
+    }
 }
 
 /* Jaydeep Ravat */
@@ -100,7 +298,7 @@ html, body {
 
 .img-about {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background: url('images/about-us-rect.png');
     background-size: cover;
     overflow: hidden;
@@ -116,9 +314,10 @@ html, body {
     opacity: 0.8;
 }
 .r-text1 {
-    font-size: 36px;
-    font-weight: 500;
     color: #EDB161;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 .img-custom {
     width: 80%;
@@ -127,6 +326,7 @@ html, body {
     background-size: cover;
     overflow: hidden;
     position: relative;
+
 }
 .orange-overlay {
     position: absolute;
@@ -193,7 +393,6 @@ html, body {
     height: 100%;
     position: relative;
 }
-
 .inner-text span {
     position: absolute;
     top: 0;
@@ -271,7 +470,199 @@ html, body {
     bottom: 0;
     padding: 0 20px;
 }
-/* Helly shah */
+/* media query for responsiveness for about and service page */
+@media only screen  and (min-width:720px) and (max-width:992px) {
+    .img-about {
+        width: 100%;
+        height: 150px;
+        margin-top: 15px;
+    } 
+    .r-text1 {
+        font-size: 25px;
+        line-height: 1.3;
+    } 
+    .img-custom {
+        width: 100%;
+        height: 200px;
+    }  
+    .l-text {
+        font-size: 50px;
+    }
+    .r-text2 {
+       font-size: 15px;
+       margin: 0 15px;
+    }
+    .connect-text {
+        color: #EDB161;
+        display: flex;
+        margin-top: 20px;
+    }
+    .connect-text div {
+        width: 50px;
+        height: 35px;
+        text-align: center;
+        margin-right: 10px;
+        background-color: #EDB161;
+    }
+    .connect-text i {
+        font-size: 15px;
+        padding:9px;
+    }
+    .connect-text p {
+        margin-top: 2px;
+        font-size: 20px;
+    }
+    .service h2{
+        font-size: 38px;
+        line-height: 1;
+    }
+    .h-line {
+        margin-top: 30px;
+    }
+    .outer-circle {
+        width: 120px;
+        height: 120px;
+        margin: 50px auto 0 auto;
+    }
+    .inner-text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .inner-text span {
+        transform: translate(-40%, -40%);
+        font-size: 20px;
+        transform-origin: 0 52px;
+    }
+    .inner-circle {
+        width: 40px;
+        height: 40px;
+    }
+    .inner-circle i {
+        margin-left: 8px;
+        margin-top: 8px;
+        font-size: 25px;
+        transform: rotate(60deg);
+    }
+    .service-text {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .all-service {
+        font-size: 38px;
+        line-height: 1;
+        bottom: -5%;
+    }
+    .blue-img {
+        width: 95%;
+        height: 350px;
+    }
+    .title {
+        margin: 30px -20px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .details {
+        padding: 0 20px;
+        font-size: 15px;
+    }
+}
+@media only screen  and (min-width:576px) and (max-width:720px) {
+    .img-about {
+        width: 100%;
+        height: 100px;
+        margin-top: 15px;
+    } 
+    .r-text1 {
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 1.3;
+    } 
+    .img-custom {
+        width: 100%;
+        height: 150px;
+    }  
+    .l-text {
+        font-size: 35px;
+    }
+    .r-text2 {
+       font-size: 10px;
+       margin: 0;
+       padding: 0;
+    }
+    .connect-text {
+        margin-top: 10px;
+    }
+    .connect-text div {
+        width: 40px;
+        height: 25px;
+        margin-right: 5px;
+    }
+    .connect-text i {
+        font-size: 12px;
+        padding:5px;
+    }
+    .connect-text p {
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    .service h2{
+        font-size: 30px;
+        line-height: 1;
+    }
+    .h-line {
+        margin-top: 20px;
+    }
+    .outer-circle {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto 0 auto;
+    }
+    .inner-text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .inner-text span {
+        transform: translate(-30%, -30%);
+        font-size: 15px;
+        transform-origin: 0 42px;
+    }
+    .inner-circle {
+        width: 30px;
+        height: 30px;
+    }
+    .inner-circle i {
+        margin-left: 6px;
+        margin-top: 5px;
+        font-size: 20px;
+        transform: rotate(60deg);
+    }
+    .service-text {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .all-service {
+        font-size: 32px;
+        line-height: 1;
+        bottom: -5%;
+    }
+    .blue-img {
+        width: 90%;
+        height: 350px;
+    }
+    .title {
+        margin: 30px -15px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .details {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+}
+
+/* Portfolio :Helly shah */
 .port-sec{
     display: block;
 }
@@ -281,7 +672,6 @@ html, body {
     color: #EDB161;
     font-weight: 700;
 }
-
 .port-head{
     text-align:center;
 }
@@ -290,7 +680,7 @@ html, body {
     height: 100px;
     width: fit-content;
     display: block;
-    margin: 0 auto;
+    margin: 0 25rem;
 }
 .port-line h5{
     color:#87AAAA;
@@ -298,29 +688,6 @@ html, body {
     line-height: 100px;
     margin-right: 20px;
 }
-.port-container{
-    margin:10px 20px;
-    align-items: center;
-}
-.port-content h2{
-    color:#47645D;
-    font-weight: 700;
-    margin: auto;
-    text-align: center;
-}
-.port-content h4{
-    color:#EDB161;
-    font-weight: 600;
-    font-size: 18px;
-    text-align: center;
-}
-.port-img-box{
-    width: 20%;
-    height: 400px;
-    background-color:#C4C4C4;
-    margin: auto;
-}
-
 /* Jaydeep Ravat */
 .i-cont {
     position: relative;
@@ -366,7 +733,82 @@ html, body {
     border: none;
     margin-bottom: 20px;
 }
-/* Helly shah */
+/* media query for responsiveness for portfolio page */
+@media only screen  and (min-width:720px) and (max-width:992px) {
+    .port-sec h2{
+        line-height: 1;
+    }
+    .port-line{
+        height: 90px;
+        margin: 0 3rem;
+    }
+    .port-line h5{
+        font-size: 15px;
+    }
+    .i-cont {
+        margin-top:20px;
+        width: 100%;
+        height: 500px;
+    }
+    .i-cont h2 {
+        font-size: 25px;
+    }
+    .i-cont h4 {
+        top: 6%;
+        font-size: 15px;
+    }
+    .i-cont .p-grey {
+        width: 300px;
+        height: 500px;
+    }
+    .i-1, .i-2 {
+        margin-top: 10px;
+    }
+    .custom-nav button {
+        margin: 0 20px;
+       text-align: center;
+    }
+}
+@media only screen  and (min-width:576px) and (max-width:720px) {
+    .port-sec h2{
+        line-height: 1;
+        font-size: 25px;
+    }
+    .port-line{
+        height: 80px;
+        margin: 0 1rem;
+    }
+    .port-line h5{
+        font-size: 12px;
+        font-weight:600 ;
+    }
+    .i-cont {
+        margin-top:20px;
+        width: 50%;
+        height: 400px;
+    }
+    .i-cont h2 {
+        font-size: 25px;
+    }
+    .i-cont h4 {
+        top: 6%;
+        font-size: 15px;
+    }
+    .i-cont .p-grey {
+        width: 300px;
+        height: 400px;
+    }
+    .i-1, .i-2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .custom-nav button {
+        margin: 0 20px;
+        text-align: center;
+    }
+}
+
+/* Comments:  Helly shah */
 .comments{
     margin:5rem;
 }
@@ -438,6 +880,80 @@ html, body {
     text-align:left ;
     margin:15px;
 }
+/* media query for responsiveness for comments page */
+@media only screen  and (min-width:720px) and (max-width:992px) {
+    .coment-head h1{
+        margin:0 5px;
+        width: 100%;
+        font-size: 30px;
+    }
+    .coment-para p{
+        margin: 15px 0;
+        width: 100%;
+        font-size: 13px;
+    }
+    .coment-sec{
+        margin:2rem 0.5rem;
+    }
+    .coment-1, .coment-2{
+        width:100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    .coment-1 img, .coment-2 img{
+        width: 45px;
+        height: 55px;
+        padding:0 0 10px 0;
+        margin:-55px 0 5px;
+    }
+    .coment-1 h3, .coment-2 h3{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .coment-1 p, .coment-2 p{
+        font-size: 12px;
+        color: rgb(73, 73, 73);
+        text-align: left;
+        margin: 10px;
+    }
+}
+@media only screen  and (min-width:576px) and (max-width:720px) {
+    .coment-head h1{
+        margin:0 5px;
+        width: 100%;
+        font-size: 28px;
+    }
+    .coment-para p{
+        margin: 10px 5px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .coment-sec{
+        margin:2rem 0.5rem;
+    }
+    .coment-1, .coment-2{
+        width:80%;
+        margin: 10px;
+        padding: 20px;
+    }
+    .coment-1 img, .coment-2 img{
+        width: 45px;
+        height: 55px;
+        padding:0 0 10px 0;
+        margin:-55px 0 5px;
+    }
+    .coment-1 h3, .coment-2 h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .coment-1 p, .coment-2 p{
+        font-size: 13px;
+        color: rgb(73, 73, 73);
+        text-align: left;
+        margin: 5px;
+    }
+}
+
 /* footer */
 .footer-top{
     background-color: #fcf3ed;
@@ -499,50 +1015,78 @@ html, body {
     color: white;
     font-size: 16px;
 }
-
-.home-left {
-    width: 100%;
-    height: 400px;
-    background: url('Images/about-us-rect.png');
-    position: relative;
+/* media query for responsiveness for footer page */
+@media only screen  and (min-width:720px) and (max-width:992px) {
+    .footer-sec img{
+        margin:20px 0 25px;
+        width: 80px;
+    }
+    .footer-icon i,p{
+        margin: 5px;
+        font-size: 12px;
+    }
+    .footer-comp h3{
+        font-size:18px;
+    }
+    .footer-comp p{
+        margin: 12px;
+    }
+    .footer-connect h2{
+        font-size: 20px;
+    }
+    .input-container i {
+        min-width: 30px;
+        padding: 8px;
+        height: 35px;
+        margin-top: 8px;
+    }
+    .footer-form input{
+        width:80%;
+        height: 50px;
+    }
+    .footer-bottom p{
+        color: white;
+        font-size: 13px;
+    }
 }
-.overlay-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, #EDB161 40%, rgba(255,255,255,1) 60%, #47645D 100%); 
-    opacity: 0.6;
-}
-.overlay-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, #47645D 20%, rgba(255,255,255,1) 40%, #EDB161 100%); 
-    opacity: 0.6;
-}
-
-.t-icon {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    transform: translate(-50%, -20%);
-}
-.b-icon {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    font-size: 32px;
-    transform: translate(-50%, -10%);
-}
-.home-right {
-    position: relative;
-    background: url('Images/about-us-rect.png');
-    width: 100%;
-    height: 400px;
+@media only screen  and (min-width:576px) and (max-width:720px) {
+    .footer-sec img{
+        margin:20px 0 25px;
+        width: 80px;
+    }
+    .footer-icon i,p{
+        margin: 8px;
+        font-size: 12px;
+    }
+    .footer-comp h3{
+        font-size:20px;
+    }
+    .footer-comp p{
+        margin: 12px;
+        line-height: 1;
+    }
+    .footer-connect{
+        text-align: center;
+    }
+    .footer-connect h2{
+        font-size: 20px;
+    }
+    .input-container{
+        display: flex;
+        justify-content: center;
+    }
+    .input-container i {
+        min-width: 30px;
+        padding: 5px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .footer-form input{
+        width:50%;
+        height: 40px;
+    }
+    .footer-bottom p{
+        color: white;
+        font-size: 13px;
+    }
 }
