@@ -35,59 +35,7 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-/* media query for responsiveness for navbar */
-@media only screen  and (min-width:720px) and (max-width:992px) {
-    .nav-bar{
-        width:100%;
-    }
-    .nav-list a{
-        color:#87AAAA;
-        font-size: 15px;
-    }
-    .nav-btn{
-        margin:0;
-        padding: 1.5px 8px;
-    }
-    .nav-img {
-        width: 120px;
-        height: 127px;
-        
-    }
-    .nav-img img{
-        width: 80px;
-        height: 87px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
 } 
-@media only screen  and (min-width:576px) and (max-width:720px) {
-    .nav-bar{
-        width:100%;
-    }
-    .nav-list a{
-        color:#87AAAA;
-        font-size: 10px;
-    }
-    .nav-btn{
-        margin:0;
-        padding: 1px 6px;
-        font-size: 13px;
-    }
-    .nav-img {
-        width: 90px;
-        height: 97px;
-        margin: 0;
-    }
-    .nav-img img{
-        width: 60px;
-        height: 67px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
 
 /* Home page  */
 .HomePage {
@@ -174,112 +122,6 @@ html, body {
     background: url('images/about-us-rect.png');
     width: 100%;
     height: 400px;
-}
-/* media query for responsiveness for home page */
-@media only screen  and (min-width:720px) and (max-width:992px) {
-    .HomePage {
-        padding-top: 50px;
-    }
-    .home-icons{
-        margin: 10px 18px;
-    }
-    .home-icons i{
-        padding: 6px;
-        font-size: 15px;
-    }
-    .icon-line{
-        height: 120px;
-        width: 2px;
-    }
-    .home-text{
-        width: 300px;
-    }
-    .home-text h1{
-        font-size: 30px;
-    }
-    .home-text h4{
-        color:#87AAAA;
-        font-size: 12px;
-        margin-top:30px;
-        width: 250px;
-    }
-    .home-left {
-        width: 100%;
-        height: 300px;
-    }
-    .overlay-left {
-        width: 100%;
-        height: 100%;
-    }
-    .overlay-right {
-        width: 100%;
-        height: 100%;
-    }
-    .t-icon {
-        width: 40px;
-        height: 40px;
-    }
-    .b-icon {
-        width: 35px;
-        height: 40px;
-        font-size: 20px;
-    }
-    .home-right {
-        width: 100%;
-        height: 300px;
-    }
-}
-@media only screen  and (min-width:576px) and (max-width:720px) {
-    .HomePage {
-        padding-top: 40px;
-    }
-    .home-icons{
-        margin: 6px 10px;
-    }
-    .home-icons i{
-        padding: 4px;
-        font-size: 12px;
-    }
-    .icon-line{
-        height: 90px;
-        width: 2px;
-    }
-    .home-text{
-        width: 250px;
-    }
-    .home-text h1{
-        font-size: 25px;
-    }
-    .home-text h4{
-        font-size: 10px;
-        margin-top:15px;
-        width: 200px;
-    }
-    .home-left {
-        width: 100%;
-        height: 200px;
-    }
-    .overlay-left {
-        width: 100%;
-        height: 100%;
-    }
-    .overlay-right {
-        width: 100%;
-        height: 100%;
-    }
-    .t-icon {
-        width: 30px;
-        height: 35px;
-    }
-    .b-icon {
-        width: 28px;
-        height: 35px;
-        font-size: 20px;
-    }
-    .home-right {
-        width: 100%;
-        height: 200px;
-    }
 }
 
 /* Jaydeep Ravat */
@@ -469,9 +311,297 @@ html, body {
     position: absolute;
     bottom: 0;
     padding: 0 20px;
+}    
+
+/* Portfolio :Helly shah */
+.port-sec{
+    display: block;
 }
-/* media query for responsiveness for about and service page */
-@media only screen  and (min-width:720px) and (max-width:992px) {
+.port-sec h2{
+    text-align:center;
+    text-transform: capitalize;
+    color: #EDB161;
+    font-weight: 700;
+}
+.port-head{
+    text-align:center;
+}
+.port-line{
+    border-right: 3px dashed black;
+    height: 100px;
+    width: fit-content;
+    display: block;
+    margin: 0 25rem;
+}
+.port-line h5{
+    color:#87AAAA;
+    font-size: 20px;
+    line-height: 100px;
+    margin-right: 20px;
+}
+/* Jaydeep Ravat */
+.i-cont {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.i-cont h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+.i-cont h4 {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    color: #EDB161;
+}
+.i-cont .p-grey {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 400px;
+    height: 600px;
+    background-color: grey;
+}
+.i-1 {
+    margin-top: 10px;
+}
+.i-2 {
+    margin-top: 120px;
+}
+.custom-nav {
+    text-align: center;
+}
+.custom-nav button {
+    margin: 0 40px;
+    background-color: #EDB161;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Comments:  Helly shah */
+.comments{
+    margin:5rem;
+}
+.coment-head h1{
+    margin:0 50px;
+    text-transform: capitalize;
+    color: #EDB161;
+    font-weight: 700;
+    width: 70%;
+}
+.coment-para p{
+    color:#87AAAA;
+    margin:15px 0;
+    width: 80%;
+}
+.coment-sec{
+    margin:6rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coment-1{
+    background-color:#93b8b8;
+    width:100%;
+    text-align: center;
+    margin: 20px 10px;
+    border: 25px solid #cbe4e4;
+    border-radius: 200px;
+    padding: 20px;
+}
+.coment-1 img{
+    width: 45px;
+    height: 55px;
+    padding:0 0 10px 0;
+    margin:-55px 0 5px;
+}
+.coment-1 h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.coment-1 p{
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+    text-align: left;
+    margin: 10px;
+}
+.coment-2{
+    background-color:#93b8b8;
+    width: 100%;
+    text-align: center;
+    margin: 20px 10px;
+    border: 25px solid #cbe4e4;
+    border-radius: 200px;
+    padding: 30px;
+}
+.coment-2 img{
+    width: 65px;
+    height: 75px;
+    padding:0 0 10px 0;
+    margin:-55px 0 20px;
+}
+.coment-2 h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.coment-2 p{
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+    text-align:left ;
+    margin:15px;
+}
+@media only screen  and (min-width:576px) and (max-width:720px) {
+    
+}
+
+/* footer */
+.footer-top{
+    background-color: #fcf3ed;
+    padding: 10px;
+}
+.footer-sec img{
+    margin:20px 0 25px;
+    width: 100px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i,p{
+    margin: 10px 10px;
+    color:#47645D;
+}
+.footer-comp h3{
+    font-size:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-comp p{
+    margin: 20px;
+    text-transform: uppercase;
+}
+.footer-connect h2{
+    color: #EDB161;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+}
+.input-container i {
+    background: #EDB161;
+    color: white;
+    min-width: 40px;
+    padding: 10px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: -50px;
+    text-align: center;
+}
+.footer-form input{
+    border: 2px solid black;
+    width:70%;
+    outline: none;
+    height: 50px;
+    background-color: #fcf3ed;
+    padding: 10px 20px;
+}
+.footer-bottom{
+    background-color: #EDB161;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 16px;
+}
+
+/* Media Queries */
+@media only  screen  and (min-width:720px) and (max-width:992px) {
+    /* nav bar */
+    .nav-bar{
+        width:100%;
+    }
+    .nav-list a{
+        color:#87AAAA;
+        font-size: 15px;
+    }
+    .nav-btn{
+        margin:0;
+        padding: 1.5px 8px;
+    }
+    .nav-img {
+        width: 120px;
+        height: 127px;
+        
+    }
+    .nav-img img{
+        width: 80px;
+        height: 87px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* home page*/
+    .HomePage {
+        padding-top: 50px;
+    }
+    .home-icons{
+        margin: 10px 18px;
+    }
+    .home-icons i{
+        padding: 6px;
+        font-size: 15px;
+    }
+    .icon-line{
+        height: 120px;
+        width: 2px;
+    }
+    .home-text{
+        width: 300px;
+    }
+    .home-text h1{
+        font-size: 30px;
+    }
+    .home-text h4{
+        color:#87AAAA;
+        font-size: 12px;
+        margin-top:30px;
+        width: 250px;
+    }
+    .home-left {
+        width: 100%;
+        height: 300px;
+    }
+    .overlay-left {
+        width: 100%;
+        height: 100%;
+    }
+    .overlay-right {
+        width: 100%;
+        height: 100%;
+    }
+    .t-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .b-icon {
+        width: 35px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .home-right {
+        width: 100%;
+        height: 300px;
+    }
+    /* About page and service page */
     .img-about {
         width: 100%;
         height: 150px;
@@ -566,8 +696,187 @@ html, body {
         padding: 0 20px;
         font-size: 15px;
     }
+    /* portfolio page */
+    .port-sec h2{
+        line-height: 1;
+    }
+    .port-line{
+        height: 90px;
+        margin: 0 3rem;
+    }
+    .port-line h5{
+        font-size: 15px;
+    }
+    .i-cont {
+        margin-top:20px;
+        width: 100%;
+        height: 500px;
+    }
+    .i-cont h2 {
+        font-size: 25px;
+    }
+    .i-cont h4 {
+        top: 6%;
+        font-size: 15px;
+    }
+    .i-cont .p-grey {
+        width: 300px;
+        height: 500px;
+    }
+    .i-1, .i-2 {
+        margin-top: 10px;
+    }
+    .custom-nav button {
+        margin: 0 20px;
+       text-align: center;
+    }
+    /* comments page */
+    .coment-head h1{
+        margin:0 5px;
+        width: 100%;
+        font-size: 30px;
+    }
+    .coment-para p{
+        margin: 15px 0;
+        width: 100%;
+        font-size: 13px;
+    }
+    .coment-sec{
+        margin:2rem 0.5rem;
+    }
+    .coment-1, .coment-2{
+        width:100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    .coment-1 img, .coment-2 img{
+        width: 45px;
+        height: 55px;
+        padding:0 0 10px 0;
+        margin:-55px 0 5px;
+    }
+    .coment-1 h3, .coment-2 h3{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .coment-1 p, .coment-2 p{
+        font-size: 12px;
+        color: rgb(73, 73, 73);
+        text-align: left;
+        margin: 10px;
+    }
+    /* footer page */
+    .footer-sec img{
+        margin:20px 0 25px;
+        width: 80px;
+    }
+    .footer-icon i,p{
+        margin: 5px;
+        font-size: 12px;
+    }
+    .footer-comp h3{
+        font-size:18px;
+    }
+    .footer-comp p{
+        margin: 12px;
+    }
+    .footer-connect h2{
+        font-size: 20px;
+    }
+    .input-container i {
+        min-width: 30px;
+        padding: 8px;
+        height: 35px;
+        margin-top: 8px;
+    }
+    .footer-form input{
+        width:80%;
+        height: 50px;
+    }
+    .footer-bottom p{
+        color: white;
+        font-size: 13px;
+    }
 }
+
 @media only screen  and (min-width:576px) and (max-width:720px) {
+    /* nav bar */
+    .nav-bar{
+        width:100%;
+    }
+    .nav-list a{
+        color:#87AAAA;
+        font-size: 10px;
+    }
+    .nav-btn{
+        margin:0;
+        padding: 1px 6px;
+        font-size: 13px;
+    }
+    .nav-img {
+        width: 90px;
+        height: 97px;
+        margin: 0;
+    }
+    .nav-img img{
+        width: 60px;
+        height: 67px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* home page */
+    .HomePage {
+        padding-top: 40px;
+    }
+    .home-icons{
+        margin: 6px 10px;
+    }
+    .home-icons i{
+        padding: 4px;
+        font-size: 12px;
+    }
+    .icon-line{
+        height: 90px;
+        width: 2px;
+    }
+    .home-text{
+        width: 250px;
+    }
+    .home-text h1{
+        font-size: 25px;
+    }
+    .home-text h4{
+        font-size: 10px;
+        margin-top:15px;
+        width: 200px;
+    }
+    .home-left {
+        width: 100%;
+        height: 200px;
+    }
+    .overlay-left {
+        width: 100%;
+        height: 100%;
+    }
+    .overlay-right {
+        width: 100%;
+        height: 100%;
+    }
+    .t-icon {
+        width: 30px;
+        height: 35px;
+    }
+    .b-icon {
+        width: 28px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .home-right {
+        width: 100%;
+        height: 200px;
+    }
+    /* about and service page */
     .img-about {
         width: 100%;
         height: 100px;
@@ -660,116 +969,7 @@ html, body {
         padding: 0 10px;
         font-size: 12px;
     }
-}
-
-/* Portfolio :Helly shah */
-.port-sec{
-    display: block;
-}
-.port-sec h2{
-    text-align:center;
-    text-transform: capitalize;
-    color: #EDB161;
-    font-weight: 700;
-}
-.port-head{
-    text-align:center;
-}
-.port-line{
-    border-right: 3px dashed black;
-    height: 100px;
-    width: fit-content;
-    display: block;
-    margin: 0 25rem;
-}
-.port-line h5{
-    color:#87AAAA;
-    font-size: 20px;
-    line-height: 100px;
-    margin-right: 20px;
-}
-/* Jaydeep Ravat */
-.i-cont {
-    position: relative;
-    width: 100%;
-    height: 600px;
-}
-.i-cont h2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 32px;
-    font-weight: 700;
-}
-.i-cont h4 {
-    position: absolute;
-    top: 7%;
-    left: 0;
-    color: #EDB161;
-}
-.i-cont .p-grey {
-    position: absolute;
-    top: 15%;
-    left: 0;
-    width: 400px;
-    height: 600px;
-    background-color: grey;
-}
-.i-1 {
-    margin-top: 10px;
-}
-.i-2 {
-    margin-top: 120px;
-}
-.custom-nav {
-    text-align: center;
-}
-.custom-nav button {
-    margin: 0 40px;
-    background-color: #EDB161;
-    color: white;
-    padding: 10px;
-    width: 60px;
-    border: none;
-    margin-bottom: 20px;
-}
-/* media query for responsiveness for portfolio page */
-@media only screen  and (min-width:720px) and (max-width:992px) {
-    .port-sec h2{
-        line-height: 1;
-    }
-    .port-line{
-        height: 90px;
-        margin: 0 3rem;
-    }
-    .port-line h5{
-        font-size: 15px;
-    }
-    .i-cont {
-        margin-top:20px;
-        width: 100%;
-        height: 500px;
-    }
-    .i-cont h2 {
-        font-size: 25px;
-    }
-    .i-cont h4 {
-        top: 6%;
-        font-size: 15px;
-    }
-    .i-cont .p-grey {
-        width: 300px;
-        height: 500px;
-    }
-    .i-1, .i-2 {
-        margin-top: 10px;
-    }
-    .custom-nav button {
-        margin: 0 20px;
-       text-align: center;
-    }
-}
-@media only screen  and (min-width:576px) and (max-width:720px) {
+    /* portfolio page */
     .port-sec h2{
         line-height: 1;
         font-size: 25px;
@@ -806,118 +1006,7 @@ html, body {
         margin: 0 20px;
         text-align: center;
     }
-}
-
-/* Comments:  Helly shah */
-.comments{
-    margin:5rem;
-}
-.coment-head h1{
-    margin:0 50px;
-    text-transform: capitalize;
-    color: #EDB161;
-    font-weight: 700;
-    width: 70%;
-}
-.coment-para p{
-    color:#87AAAA;
-    margin:15px 0;
-    width: 80%;
-}
-.coment-sec{
-    margin:6rem 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.coment-1{
-    background-color:#93b8b8;
-    width:100%;
-    text-align: center;
-    margin: 20px 10px;
-    border: 25px solid #cbe4e4;
-    border-radius: 200px;
-    padding: 20px;
-}
-.coment-1 img{
-    width: 45px;
-    height: 55px;
-    padding:0 0 10px 0;
-    margin:-55px 0 5px;
-}
-.coment-1 h3{
-    font-size: 18px;
-    font-weight: 700;
-}
-.coment-1 p{
-    font-size: 15px;
-    color: rgb(73, 73, 73);
-    text-align: left;
-    margin: 10px;
-}
-.coment-2{
-    background-color:#93b8b8;
-    width: 100%;
-    text-align: center;
-    margin: 20px 10px;
-    border: 25px solid #cbe4e4;
-    border-radius: 200px;
-    padding: 30px;
-}
-.coment-2 img{
-    width: 65px;
-    height: 75px;
-    padding:0 0 10px 0;
-    margin:-55px 0 20px;
-}
-.coment-2 h3{
-    font-size: 22px;
-    font-weight: 700;
-}
-.coment-2 p{
-    font-size: 18px;
-    color: rgb(73, 73, 73);
-    text-align:left ;
-    margin:15px;
-}
-/* media query for responsiveness for comments page */
-@media only screen  and (min-width:720px) and (max-width:992px) {
-    .coment-head h1{
-        margin:0 5px;
-        width: 100%;
-        font-size: 30px;
-    }
-    .coment-para p{
-        margin: 15px 0;
-        width: 100%;
-        font-size: 13px;
-    }
-    .coment-sec{
-        margin:2rem 0.5rem;
-    }
-    .coment-1, .coment-2{
-        width:100%;
-        margin: 10px;
-        padding: 20px;
-    }
-    .coment-1 img, .coment-2 img{
-        width: 45px;
-        height: 55px;
-        padding:0 0 10px 0;
-        margin:-55px 0 5px;
-    }
-    .coment-1 h3, .coment-2 h3{
-        font-size: 15px;
-        font-weight: 700;
-    }
-    .coment-1 p, .coment-2 p{
-        font-size: 12px;
-        color: rgb(73, 73, 73);
-        text-align: left;
-        margin: 10px;
-    }
-}
-@media only screen  and (min-width:576px) and (max-width:720px) {
+    /* comments page */
     .coment-head h1{
         margin:0 5px;
         width: 100%;
@@ -952,104 +1041,7 @@ html, body {
         text-align: left;
         margin: 5px;
     }
-}
-
-/* footer */
-.footer-top{
-    background-color: #fcf3ed;
-    padding: 10px;
-}
-.footer-sec img{
-    margin:20px 0 25px;
-    width: 100px;
-}
-.footer-icon{
-    display: flex;
-    justify-content: center;
-}
-.footer-icon i,p{
-    margin: 10px 10px;
-    color:#47645D;
-}
-.footer-comp h3{
-    font-size:20px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.footer-comp p{
-    margin: 20px;
-    text-transform: uppercase;
-}
-.footer-connect h2{
-    color: #EDB161;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-.input-container {
-    display: flex;
-    width: 100%;
-}
-.input-container i {
-    background: #EDB161;
-    color: white;
-    min-width: 40px;
-    padding: 10px;
-    height: 40px;
-    line-height: 20px;
-    margin-top: 5px;
-    margin-left: -50px;
-    text-align: center;
-}
-.footer-form input{
-    border: 2px solid black;
-    width:70%;
-    outline: none;
-    height: 50px;
-    background-color: #fcf3ed;
-    padding: 10px 20px;
-}
-.footer-bottom{
-    background-color: #EDB161;
-}
-.footer-bottom p{
-    color: white;
-    font-size: 16px;
-}
-/* media query for responsiveness for footer page */
-@media only screen  and (min-width:720px) and (max-width:992px) {
-    .footer-sec img{
-        margin:20px 0 25px;
-        width: 80px;
-    }
-    .footer-icon i,p{
-        margin: 5px;
-        font-size: 12px;
-    }
-    .footer-comp h3{
-        font-size:18px;
-    }
-    .footer-comp p{
-        margin: 12px;
-    }
-    .footer-connect h2{
-        font-size: 20px;
-    }
-    .input-container i {
-        min-width: 30px;
-        padding: 8px;
-        height: 35px;
-        margin-top: 8px;
-    }
-    .footer-form input{
-        width:80%;
-        height: 50px;
-    }
-    .footer-bottom p{
-        color: white;
-        font-size: 13px;
-    }
-}
-@media only screen  and (min-width:576px) and (max-width:720px) {
+    /* footer page */
     .footer-sec img{
         margin:20px 0 25px;
         width: 80px;
