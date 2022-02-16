@@ -805,7 +805,6 @@ html, body {
         width:100%;
     }
     .nav-list a{
-        color:#87AAAA;
         font-size: 10px;
     }
     .nav-btn{
@@ -1021,7 +1020,7 @@ html, body {
         margin:2rem 0.5rem;
     }
     .coment-1, .coment-2{
-        width:80%;
+        width:100%;
         margin: 10px;
         padding: 20px;
     }
@@ -1075,6 +1074,283 @@ html, body {
     }
     .footer-form input{
         width:50%;
+        height: 40px;
+    }
+    .footer-bottom p{
+        color: white;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:575px){
+    /* navbar */
+    .nav-bar{
+        width:100%;
+    }
+    .nav-list a{
+        font-size: 10px;
+    }
+    .nav-btn{
+        margin:0;
+        padding: 1px 6px;
+        font-size: 13px;
+    }
+    .nav-list{
+        display: block;
+    }
+    /* home page */
+    .HomePage {
+        padding-top: 30px;
+    }
+    .home-icons{
+        margin: 4px 5px;
+    }
+    .home-icons i{
+        padding: 4px;
+        font-size: 10px;
+    }
+    .icon-line{
+        height: 70px;
+        width: 2px;
+        margin:4px;
+    }
+    .home-text{
+        width: 350px;
+    }
+    .home-text h1{
+        font-size: 22px;
+    }
+    .home-text h4{
+        font-size: 10px;
+        margin-top:10px;
+        width: 300px;
+    }
+    .home-left {
+        width: 50%;
+        height: 200px;
+        margin:10px;
+    }
+    .overlay-left {
+        width: 100%;
+        height: 100%;
+    }
+    .overlay-right {
+        width: 100%;
+        height: 100%;
+    }
+    .t-icon {
+        width: 25px;
+        height: 30px;
+    }
+    .b-icon {
+        width: 23px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .home-right {
+        width: 50%;
+        height: 200px;
+        margin: 10px;
+    }
+    /* about and service page */
+    .img-about {
+        width: 40%;
+        height: 100px;
+        margin: 10px -15px;
+    } 
+    .r-text1 {
+        font-size: 13px;
+        line-height: 1.3;
+        width:50%;
+    } 
+    .img-custom {
+        width: 50%;
+        height: 150px;
+    }  
+    .l-text {
+        font-size: 25px;
+    }
+    .r-text2 {
+       font-size: 12px;
+       margin: 0;
+       padding: 0;
+    }
+    .connect-text {
+        margin-top: 10px;
+    }
+    .connect-text div {
+        width: 40px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .connect-text i {
+        font-size: 14px;
+        padding:8px;
+    }
+    .connect-text p {
+        margin-top: 2px;
+        font-size: 18px;
+    }
+    .service h2{
+        font-size: 30px;
+        line-height: 1;
+    }
+    .h-line {
+        margin-top: 20px;
+    }
+    .outer-circle {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto 0 auto;
+    }
+    .inner-text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .inner-text span {
+        transform: translate(-30%, -30%);
+        font-size: 15px;
+        transform-origin: 0 42px;
+    }
+    .inner-circle {
+        width: 30px;
+        height: 30px;
+    }
+    .inner-circle i {
+        margin-left: 6px;
+        margin-top: 5px;
+        font-size: 20px;
+        transform: rotate(60deg);
+    }
+    .service-text {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .all-service {
+        font-size: 35px;
+        line-height: 1;
+        bottom:-30px;
+    }
+    .blue-img {
+        width: 70%;
+        height: 300px;
+        margin:30px 50px;
+    }
+    .title {
+        margin: 30px -20px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .details {
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    /* portfolio page */
+    .port-sec h2{
+        line-height: 1;
+        font-size: 22px;
+    }
+    .port-line{
+        height: 70px;
+        margin:0 1rem;
+    }
+    .port-line h5{
+        font-size: 12px;
+        font-weight:600 ;
+    }
+    .i-cont {
+        margin-top:20px;
+        width: 50%;
+        height: 450px;
+    }
+    .i-cont h2 {
+        font-size: 20px;
+    }
+    .i-cont h4 {
+        top: 14%;
+        font-size: 15px;
+    }
+    .i-cont .p-grey {
+        width: 300px;
+        height: 400px;
+        margin-top:40px;
+    }
+    .i-1, .i-2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .custom-nav button {
+        margin: 10px 20px;
+        text-align: center;
+    }
+    /* comments page */
+    .coment-head h1{
+        margin:0px;
+        width: 100%;
+        font-size: 32px;
+    }
+    .coment-para p{
+        margin: 10px 2px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .coment-sec{
+        margin:2rem 0.5rem;
+    }
+    .coment-1, .coment-2{
+        width:100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    .coment-1 img, .coment-2 img{
+        width: 45px;
+        height: 55px;
+        padding:0 0 10px 0;
+        margin:-55px 0 5px;
+    }
+    .coment-1 h3, .coment-2 h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .coment-1 p, .coment-2 p{
+        font-size: 13px;
+        color: rgb(73, 73, 73);
+        text-align: left;
+        margin: 5px;
+    }
+    /* footer page */
+    .footer-sec img{
+        margin:20px 0 25px;
+        width: 80px;
+    }
+    .footer-icon i,p{
+        margin: 8px;
+        font-size: 11px;
+    }
+    .footer-comp h3{
+        font-size:22px;
+    }
+    .footer-comp p{
+        margin: 10px;
+        line-height: 1;
+    }
+    .footer-connect{
+        text-align: center;
+    }
+    .footer-connect h2{
+        font-size: 20px;
+    }
+    .input-container{
+        display: flex;
+        justify-content: center;
+    }
+    .input-container i {
+        min-width: 30px;
+        padding: 5px;
+        height: 30px;
+    }
+    .footer-form input{
+        width:80%;
         height: 40px;
     }
     .footer-bottom p{
