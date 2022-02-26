@@ -155,10 +155,10 @@ html, body {
     background: #f8f1e7;
     opacity: 0.8;
 }
-.r-text1 {
+.r-text1 p {
     color: #EDB161;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 700;
     text-transform: capitalize;
 }
 .img-custom {
@@ -343,7 +343,7 @@ html, body {
 .i-cont {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 400px;
 }
 .i-cont h2 {
     position: absolute;
@@ -354,7 +354,7 @@ html, body {
 }
 .i-cont h4 {
     position: absolute;
-    top: 7%;
+    top: 8%;
     left: 0;
     color: #EDB161;
 }
@@ -362,12 +362,12 @@ html, body {
     position: absolute;
     top: 15%;
     left: 0;
-    width: 400px;
-    height: 600px;
+    width: 300px;
+    height: 250px;
     background-color: grey;
 }
 .i-1 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .i-2 {
     margin-top: 120px;
@@ -386,9 +386,6 @@ html, body {
 }
 
 /* Comments:  Helly shah */
-.comments{
-    margin:5rem;
-}
 .coment-head h1{
     margin:0 50px;
     text-transform: capitalize;
@@ -457,10 +454,6 @@ html, body {
     text-align:left ;
     margin:15px;
 }
-@media only screen  and (min-width:576px) and (max-width:720px) {
-    
-}
-
 /* footer */
 .footer-top{
     background-color: #fcf3ed;
@@ -524,38 +517,23 @@ html, body {
 }
 
 /* Media Queries */
-@media only  screen  and (min-width:720px) and (max-width:992px) {
+@media only  screen  and  (max-width:992px) {
     /* nav bar */
-    .nav-bar{
-        width:100%;
-    }
     .nav-list a{
-        color:#87AAAA;
-        font-size: 15px;
-    }
-    .nav-btn{
-        margin:0;
-        padding: 1.5px 8px;
+        font-size:15px;
     }
     .nav-img {
-        width: 120px;
-        height: 127px;
-        
+        width: 130px;
+        height: 137px;
     }
     .nav-img img{
-        width: 80px;
-        height: 87px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        width: 90px;
+        height: 97px;
+    } 
+    .nav-btn{
+        font-size: 15px;
     }
     /* home page*/
-    .HomePage {
-        padding-top: 50px;
-    }
-    .home-icons{
-        margin: 10px 18px;
-    }
     .home-icons i{
         padding: 6px;
         font-size: 15px;
@@ -571,7 +549,6 @@ html, body {
         font-size: 30px;
     }
     .home-text h4{
-        color:#87AAAA;
         font-size: 12px;
         margin-top:30px;
         width: 250px;
@@ -579,14 +556,6 @@ html, body {
     .home-left {
         width: 100%;
         height: 300px;
-    }
-    .overlay-left {
-        width: 100%;
-        height: 100%;
-    }
-    .overlay-right {
-        width: 100%;
-        height: 100%;
     }
     .t-icon {
         width: 40px;
@@ -607,8 +576,9 @@ html, body {
         height: 150px;
         margin-top: 15px;
     } 
-    .r-text1 {
-        font-size: 25px;
+    .r-text1 p{
+        margin-top: 3rem;
+        font-size: 20px;
         line-height: 1.3;
     } 
     .img-custom {
@@ -623,16 +593,11 @@ html, body {
        margin: 0 15px;
     }
     .connect-text {
-        color: #EDB161;
-        display: flex;
         margin-top: 20px;
     }
     .connect-text div {
         width: 50px;
         height: 35px;
-        text-align: center;
-        margin-right: 10px;
-        background-color: #EDB161;
     }
     .connect-text i {
         font-size: 15px;
@@ -644,23 +609,13 @@ html, body {
     }
     .service h2{
         font-size: 38px;
-        line-height: 1;
-    }
-    .h-line {
-        margin-top: 30px;
     }
     .outer-circle {
         width: 120px;
         height: 120px;
         margin: 50px auto 0 auto;
     }
-    .inner-text{
-        width: 100%;
-        height: 100%;
-        position: relative;
-    }
     .inner-text span {
-        transform: translate(-40%, -40%);
         font-size: 20px;
         transform-origin: 0 52px;
     }
@@ -672,7 +627,6 @@ html, body {
         margin-left: 8px;
         margin-top: 8px;
         font-size: 25px;
-        transform: rotate(60deg);
     }
     .service-text {
         padding-top: 20px;
@@ -701,27 +655,19 @@ html, body {
         line-height: 1;
     }
     .port-line{
-        height: 90px;
-        margin: 0 3rem;
+        /* height: 0px; */
+        margin: 0 10rem;
     }
     .port-line h5{
-        font-size: 15px;
+        font-size: 25px;
     }
-    .i-cont {
-        margin-top:20px;
+     .i-cont {
+        margin-top:2rem;
         width: 100%;
         height: 500px;
     }
-    .i-cont h2 {
-        font-size: 25px;
-    }
     .i-cont h4 {
-        top: 6%;
         font-size: 15px;
-    }
-    .i-cont .p-grey {
-        width: 300px;
-        height: 500px;
     }
     .i-1, .i-2 {
         margin-top: 10px;
@@ -729,8 +675,11 @@ html, body {
     .custom-nav button {
         margin: 0 20px;
        text-align: center;
-    }
+    } 
     /* comments page */
+    .comments{
+        margin-top:5rem;
+    }
     .coment-head h1{
         margin:0 5px;
         width: 100%;
@@ -744,25 +693,16 @@ html, body {
     .coment-sec{
         margin:2rem 0.5rem;
     }
-    .coment-1, .coment-2{
-        width:100%;
-        margin: 10px;
-        padding: 20px;
-    }
     .coment-1 img, .coment-2 img{
         width: 45px;
         height: 55px;
         padding:0 0 10px 0;
-        margin:-55px 0 5px;
     }
     .coment-1 h3, .coment-2 h3{
         font-size: 15px;
-        font-weight: 700;
     }
     .coment-1 p, .coment-2 p{
         font-size: 12px;
-        color: rgb(73, 73, 73);
-        text-align: left;
         margin: 10px;
     }
     /* footer page */
@@ -794,35 +734,26 @@ html, body {
         height: 50px;
     }
     .footer-bottom p{
-        color: white;
         font-size: 13px;
     }
 }
 
-@media only screen  and (min-width:576px) and (max-width:720px) {
+@media only screen  and (max-width:720px) {
     /* nav bar */
-    .nav-bar{
-        width:100%;
-    }
     .nav-list a{
-        font-size: 10px;
+        font-size:12px;
     }
-    .nav-btn{
-        margin:0;
-        padding: 1px 6px;
-        font-size: 13px;
-    }
-    .nav-img {
-        width: 90px;
+    .nav-img{
+        width:90px;
         height: 97px;
-        margin: 0;
     }
     .nav-img img{
-        width: 60px;
-        height: 67px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        width: 70px;
+        height: 77px;
+    } 
+    .nav-btn{
+        font-size: 12px;
+        padding:5px;
     }
     /* home page */
     .HomePage {
@@ -839,9 +770,6 @@ html, body {
         height: 90px;
         width: 2px;
     }
-    .home-text{
-        width: 250px;
-    }
     .home-text h1{
         font-size: 25px;
     }
@@ -853,14 +781,6 @@ html, body {
     .home-left {
         width: 100%;
         height: 200px;
-    }
-    .overlay-left {
-        width: 100%;
-        height: 100%;
-    }
-    .overlay-right {
-        width: 100%;
-        height: 100%;
     }
     .t-icon {
         width: 30px;
@@ -881,13 +801,12 @@ html, body {
         height: 100px;
         margin-top: 15px;
     } 
-    .r-text1 {
-        margin-top: 15px;
+    .r-text1 p{
+        margin-top: 25px;
         font-size: 18px;
-        line-height: 1.3;
     } 
     .img-custom {
-        width: 100%;
+        width: 90%;
         height: 150px;
     }  
     .l-text {
@@ -897,6 +816,7 @@ html, body {
        font-size: 10px;
        margin: 0;
        padding: 0;
+       width:50%;
     }
     .connect-text {
         margin-top: 10px;
@@ -929,10 +849,8 @@ html, body {
     .inner-text{
         width: 100%;
         height: 100%;
-        position: relative;
     }
     .inner-text span {
-        transform: translate(-30%, -30%);
         font-size: 15px;
         transform-origin: 0 42px;
     }
@@ -944,7 +862,6 @@ html, body {
         margin-left: 6px;
         margin-top: 5px;
         font-size: 20px;
-        transform: rotate(60deg);
     }
     .service-text {
         padding-top: 20px;
@@ -970,27 +887,24 @@ html, body {
     }
     /* portfolio page */
     .port-sec h2{
-        line-height: 1;
-        font-size: 25px;
+        font-size: 28px;
     }
     .port-line{
-        height: 80px;
-        margin: 0 1rem;
+        height: 0px;
+        margin: 0 2rem;
     }
     .port-line h5{
-        font-size: 12px;
-        font-weight:600 ;
+        font-size: 25px;
     }
     .i-cont {
-        margin-top:20px;
         width: 50%;
         height: 400px;
+        margin: 5rem auto;
     }
     .i-cont h2 {
         font-size: 25px;
     }
     .i-cont h4 {
-        top: 6%;
         font-size: 15px;
     }
     .i-cont .p-grey {
@@ -1002,18 +916,16 @@ html, body {
         text-align: center;
     }
     .custom-nav button {
-        margin: 0 20px;
+        margin: 0 10px;
         text-align: center;
     }
     /* comments page */
     .coment-head h1{
         margin:0 5px;
-        width: 100%;
         font-size: 28px;
     }
     .coment-para p{
         margin: 10px 5px;
-        width: 100%;
         font-size: 12px;
     }
     .coment-sec{
@@ -1028,7 +940,6 @@ html, body {
         width: 45px;
         height: 55px;
         padding:0 0 10px 0;
-        margin:-55px 0 5px;
     }
     .coment-1 h3, .coment-2 h3{
         font-size: 18px;
@@ -1036,8 +947,6 @@ html, body {
     }
     .coment-1 p, .coment-2 p{
         font-size: 13px;
-        color: rgb(73, 73, 73);
-        text-align: left;
         margin: 5px;
     }
     /* footer page */
@@ -1053,8 +962,7 @@ html, body {
         font-size:20px;
     }
     .footer-comp p{
-        margin: 12px;
-        line-height: 1;
+        margin: 12px;   
     }
     .footer-connect{
         text-align: center;
@@ -1077,25 +985,25 @@ html, body {
         height: 40px;
     }
     .footer-bottom p{
-        color: white;
         font-size: 13px;
     }
 }
 @media only screen and (max-width:575px){
     /* navbar */
-    .nav-bar{
-        width:100%;
-    }
     .nav-list a{
-        font-size: 10px;
+        font-size:10px;
     }
+    .nav-img{
+        width:80px;
+        height: 87px;
+    }
+    .nav-img img{
+        width: 60px;
+        height: 67px;
+    } 
     .nav-btn{
-        margin:0;
-        padding: 1px 6px;
-        font-size: 13px;
-    }
-    .nav-list{
-        display: block;
+        font-size: 12px;
+        padding:5px;
     }
     /* home page */
     .HomePage {
@@ -1129,14 +1037,6 @@ html, body {
         height: 200px;
         margin:10px;
     }
-    .overlay-left {
-        width: 100%;
-        height: 100%;
-    }
-    .overlay-right {
-        width: 100%;
-        height: 100%;
-    }
     .t-icon {
         width: 25px;
         height: 30px;
@@ -1153,26 +1053,23 @@ html, body {
     }
     /* about and service page */
     .img-about {
-        width: 40%;
-        height: 100px;
-        margin: 10px -15px;
+        display: none;
     } 
-    .r-text1 {
-        font-size: 13px;
+    .r-text1 p{
+        font-size:22px;
         line-height: 1.3;
-        width:50%;
+        width:100%;
     } 
     .img-custom {
-        width: 50%;
-        height: 150px;
+        width: 30%;
+        height: 100px;
     }  
     .l-text {
         font-size: 25px;
     }
-    .r-text2 {
+    .r-text2 p{
        font-size: 12px;
-       margin: 0;
-       padding: 0;
+       width: 100%;
     }
     .connect-text {
         margin-top: 10px;
@@ -1220,7 +1117,6 @@ html, body {
         margin-left: 6px;
         margin-top: 5px;
         font-size: 20px;
-        transform: rotate(60deg);
     }
     .service-text {
         padding-top: 10px;
@@ -1247,19 +1143,17 @@ html, body {
     }
     /* portfolio page */
     .port-sec h2{
-        line-height: 1;
-        font-size: 22px;
+        font-size: 25px;
     }
     .port-line{
-        height: 70px;
+        height: 0px;
         margin:0 1rem;
     }
     .port-line h5{
-        font-size: 12px;
-        font-weight:600 ;
+        font-size: 20px;
     }
     .i-cont {
-        margin-top:20px;
+        margin-top:5rem;
         width: 50%;
         height: 450px;
     }
@@ -1267,20 +1161,18 @@ html, body {
         font-size: 20px;
     }
     .i-cont h4 {
-        top: 14%;
         font-size: 15px;
     }
     .i-cont .p-grey {
         width: 300px;
         height: 400px;
-        margin-top:40px;
     }
     .i-1, .i-2 {
         margin-top: 10px;
         text-align: center;
     }
     .custom-nav button {
-        margin: 10px 20px;
+        margin: 10px;
         text-align: center;
     }
     /* comments page */
@@ -1314,8 +1206,6 @@ html, body {
     }
     .coment-1 p, .coment-2 p{
         font-size: 13px;
-        color: rgb(73, 73, 73);
-        text-align: left;
         margin: 5px;
     }
     /* footer page */
@@ -1350,7 +1240,7 @@ html, body {
         height: 30px;
     }
     .footer-form input{
-        width:80%;
+        width:70%;
         height: 40px;
     }
     .footer-bottom p{
