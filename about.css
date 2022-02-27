@@ -65,6 +65,9 @@ html, body {
     font-weight: 700;
 }
 /* AboutUs-service page */
+.ser-img2{
+    padding:0 3rem;
+}
 .about-service-img1 img{
     margin: 0 0 0 4rem;
     float:right;
@@ -325,6 +328,9 @@ html, body {
         font-size: 15px;
     }
     /* AboutUs-service */
+    .ser-img2{
+        padding: 0 2rem;
+    }
     .about-service-img1 img{
         margin: 0 0 0 2rem;
         width:100%;
@@ -551,12 +557,24 @@ html, body {
         font-size: 12px;
     }
     /* AboutUs-service */
-    .about-service-img1 img{
+    .ser-img1{
         width:50%;
+        height: 50%;
+    }
+    .ser-img2{
+        width:40%;
+        height: 50%;
+        padding: 1rem;
+    }
+    .about-service-img1 img{
+        width:100%;
     }
     .about-service-img2 img{
-        width:60%;
-        height: 70%;
+        width:100%;
+    }
+    .about-service-head{
+        margin:0;
+        padding: 0;
     }
     .about-service-head h2{
         width:100%;
@@ -565,7 +583,7 @@ html, body {
     }
     .about-service-head p{
         width: 100%;
-        font-size:15px;
+        font-size:12px;
     }
     /* About Numbers page */
     .about-numbers-head{
