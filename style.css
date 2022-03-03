@@ -11,11 +11,12 @@ html, body {
 	color:#87AAAA;
 	font-size: 18px;
 }
-.nav-btn{
+.nav-btn a{
     color:white;
     background-color: #EDB161;
     margin:0;
-    padding: 2px 10px;
+    padding: 10px;
+    text-decoration: none;
 }
 .nav-btn:hover{
     text-decoration: none;
@@ -1244,7 +1245,6 @@ html, body {
         height: 40px;
     }
     .footer-bottom p{
-        color: white;
         font-size: 13px;
     }
 }
