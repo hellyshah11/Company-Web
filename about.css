@@ -442,7 +442,7 @@ html, body {
         width: 80px;
         height: 87px;
     } 
-    .nav-btn{
+    .nav-btn a{
         font-size: 12px;
         padding:5px;
     }
@@ -622,5 +622,10 @@ html, body {
     }
     .connect-text p{
         font-size:18px;
+    }
+    /* footer page */
+    .footer-form input{
+        width:60%;
+        height: 40px;
     }
 }
