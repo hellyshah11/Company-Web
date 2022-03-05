@@ -3,10 +3,12 @@ $('.owl-carousel').owlCarousel({
     margin:20,
     items: 4,
     responsive:{
-        500:{
-            items:1
+        0:{
+            items: 1,
+            singleItem: true,
+            margin: 5
         },
-        800:{
+        768:{
             items:2,
             margin: 5
         },
