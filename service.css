@@ -1,0 +1,531 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.nav-bar{
+    position: relative;
+}
+.nav-list a{
+	color:#87AAAA;
+	font-size: 18px;
+}
+.nav-btn a{
+    color:white;
+    background-color: #EDB161;
+    margin:0;
+    padding:10px;
+    text-decoration: none;
+} 
+.nav-btn:hover{
+    text-decoration: none;
+    color: white;
+}
+.nav-img {
+    position: relative;
+}
+.nav-img img{
+    width: 100px;
+    height: 107px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.custom-active {
+    border-left: 2px solid #EDB161;
+    border-image: linear-gradient(to top, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+    border-bottom: 2px solid black;
+    border-image: linear-gradient(to right, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+} /* 50% border left and bottom */
+/* service page */
+.service-head{
+    margin:5rem auto;
+}
+.service-head h1{
+    width:35%;
+    margin: 0 auto;
+    text-transform: capitalize;
+    color:#47645D;
+    font-weight:700;
+}
+.service-head p{
+    width:50%;
+    text-transform: capitalize;
+    color:#87AAAA;
+    margin:2.5rem auto;
+}
+.head-grey{
+    width:15%;
+    background-color: #93b8b8;
+    border:10px solid #cbe4e4;
+    border-radius:100px;
+    margin:0 auto;
+}
+.head-grey h4{
+    padding:5px;
+    text-align: center;
+}
+.v-line{
+    border-right: 3px dashed black;
+    height: 100px;
+    width: fit-content;
+    display: block;
+    margin: 20px auto 4px;
+}
+.cir {
+    background-color: #C78A53;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+/* service roadmap page */
+.ser-roadmap{
+    margin:8rem auto;
+}
+.img-about {
+    margin:0 ;
+    width: 30%;
+    height: 150px;
+    background: url('./images/about-us-rect.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.orange-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f8f1e7;
+    opacity: 0.8;
+}
+.roadmap-head h1{
+    color: #EDB161;
+    width: 70%;
+    margin:1rem 5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.our-service{
+    position: relative;
+    margin:6rem auto 0;
+}
+.blue-img {
+    width: 55%;
+    height: 300px;
+    background: url('images/about-us-rect.png');
+    background-size: cover;
+    position: relative;
+    margin:2rem auto 0;
+}
+.blue-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #87AAAA -60.91%, rgba(135, 170, 170, 0) 100%);
+    width: 100%;
+    height: 100%;
+}
+.blank-img{
+    width: 45%;
+    height: 300px;
+    margin:2rem auto 0;
+}
+.blank-overlay{
+    background-color: white;
+}
+.title {
+    position: absolute;
+    margin: 30px -30px;
+    padding: 10px;
+    background-color: #EDB161;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.details {
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+}
+.ser-line{
+    border-right: 3px dashed #EDB161;
+    height: 100%;
+    width: fit-content;
+    display: block;
+    margin: 2rem auto;
+}
+/* Service work page */
+.ser-connect{
+    padding-bottom: 5rem;
+}
+.ser-connect-div{
+    background-color: rgba(151, 185, 185, 0.6);
+    padding:40px;
+    border: 12px solid rgba(151, 185, 185, 0.6);
+    border-radius: 30px;
+}
+.connect-head h1{
+    text-transform: capitalize;
+    color:#3e5751;
+    font-size:35px;
+    font-weight: 700;
+}
+.connect-head p{
+    color:#5c8d8d;
+    width:65%;
+    font-weight: 700;
+    margin-top:15px;
+    font-size: 16px;
+}
+.connect-text {
+    color: #EDB161;
+    display: flex;
+    margin-top: 10px;
+    padding: 0 10rem;
+}
+.connect-text div {
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #EDB161;
+}
+.connect-text i {
+    color: white;
+    font-size: 22px;
+    padding:11px;
+}
+.connect-text p {
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 700;
+}
+/* footer page*/
+.footer-top{
+    background-color: #fcf3ed;
+    padding: 10px;
+}
+.footer-sec img{
+    margin:20px 0 25px;
+    width: 100px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i,p{
+    margin: 10px 10px;
+    color:#47645D;
+}
+.footer-comp h3{
+    font-size:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-comp p{
+    margin: 20px;
+    text-transform: uppercase;
+}
+.footer-connect h2{
+    color: #EDB161;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+}
+.input-container i {
+    background: #EDB161;
+    color: white;
+    min-width: 40px;
+    padding: 10px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: -50px;
+    text-align: center;
+}
+.footer-form input{
+    border: 2px solid black;
+    width:70%;
+    outline: none;
+    height: 50px;
+    background-color: #fcf3ed;
+    padding: 10px 20px;
+}
+.footer-bottom{
+    background-color: #EDB161;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 16px;
+}
+/* Media Queries */
+@media only screen and (max-width:992px){
+    /* navbar */
+    .nav-list a{
+        font-size:15px;
+    }
+    .nav-img img{
+        width: 90px;
+        height: 97px;
+    } 
+    .nav-btn a{
+        font-size: 15px;
+    }
+    /* service page */
+    .service-head{
+        margin:3rem auto;
+    }
+    .service-head h1{
+        width:55%;
+    }
+    .service-head p{
+        width:75%;
+        margin:2rem auto;
+    }
+    .head-grey{
+        width:25%;
+    }
+    .v-line{
+        margin: 10px auto 4px;
+    }
+    /* service roadmap page */
+    .ser-roadmap{
+        margin:5rem auto;
+    }
+    .roadmap-head h1{
+        width: 90%;
+        margin:2rem 4rem;
+        font-size: 32px;
+    }
+    .our-service{
+        margin:4rem auto;
+    }
+    .blue-img {
+        width: 55%;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .details {
+        font-size: 14px;
+    }
+    .ser-line{
+        border-right: 3px dashed #EDB161;
+        height: 92%;
+        width: fit-content;
+        display: block;
+        margin: 4rem auto;
+    }
+     /* service work page */
+    .ser-connect-div{
+        padding:30px;
+    }
+    .connect-head h1{
+        font-size:30px;
+    }
+    .connect-head p{
+        width:100%;
+    }
+    .connect-text {
+        padding: 0 4rem;
+    }
+    .connect-text div {
+        width: 55px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .connect-text i {
+        font-size: 20px;
+        padding:8px;
+    }
+    .connect-text p {
+        font-size: 15px;
+    }
+    /* footer page */
+    .footer-sec img{
+        width: 80px;
+    }
+    .footer-icon i,p{
+        margin: 5px;
+        font-size: 12px;
+    }
+    .footer-comp h3{
+        font-size:18px;
+    }
+    .footer-comp p{
+        margin: 12px;
+    }
+    .footer-connect h2{
+        font-size: 20px;
+    }
+    .input-container i {
+        padding: 8px;
+        height: 35px;
+        margin-top: 8px;
+    }
+    .footer-form input{
+        width:80%;
+    }
+    .footer-bottom p{
+        font-size: 13px;
+    }
+}
+@media (max-width:768px){
+    /* navbar */
+    .nav-list a{
+        font-size:12px;
+    }
+    .nav-img img{
+        width: 80px;
+        height: 87px;
+    } 
+    .nav-btn a{
+        font-size: 12px;
+        padding:5px;
+    }
+    /* service page */
+    .service-head h1{
+        width:75%;
+    }
+    .service-head p{
+        width:80%;
+        margin:1rem auto;
+    }
+    .head-grey{
+        width:30%;
+    }
+    /* service roadmap page */
+    .ser-roadmap{
+        margin:3rem auto;
+    }
+    .img-about {
+        width: 25%;
+        height: 100px;
+    }
+    .roadmap-head h1{
+        width: 100%;
+        margin:0 2rem ;
+        font-size: 28px;
+    }
+    .our-service{
+        margin:4rem auto 0;
+    }
+    .blue-img {
+        width: 55%;
+        margin:4rem auto 0;
+    }
+    .blank-img{
+        display: none;
+    }
+    .details {
+        font-size: 15px;
+    }
+    .ser-line{
+        display: none;
+    }
+    /* service work page */
+    .connect-head h1{
+        font-size:25px;
+    }
+    .connect-head p{
+        font-size: 15px;
+    }
+    .connect-text {
+        padding:0 6rem;
+    }
+    .connect-text p{
+        font-size:22px;
+    }
+    /* footer page */
+    .footer-comp p{
+        margin: 12px;
+        line-height: 1;
+    }
+    .footer-connect{
+        text-align: center;
+    }
+    .input-container{
+        display: flex;
+        justify-content: center;
+    }
+    .input-container i {
+        min-width: 30px;
+        padding: 5px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .footer-form input{
+        width:50%;
+        height: 40px;
+    }
+}
+@media (max-width:576px){
+    /* navbar */
+    .custom-active {
+        padding:0 5px;
+        margin-left: 10px;
+    }
+    .nav-btn{
+        margin-top: 2px;
+    }
+    /* service page */
+    .service-head{
+        margin:0 auto;
+    }
+    .service-head h1{
+        width:85%;
+    }
+    .service-head p{
+        width:100%;
+        margin:1rem auto;
+    }
+    .head-grey{
+        width:40%;
+    }
+    /* service roadmap page */
+    .ser-roadmap{
+        margin:4rem auto;
+    }
+    .img-about {
+       display: none;
+    }
+    .roadmap-head h1{
+        margin:0 2rem ;
+        font-size: 28px;
+    }
+    .our-service {
+        margin:0 auto ;
+    }
+    .blank-img{
+        display: none;
+    }
+    .ser-line{
+        display: none;
+    }
+    /* about connect */
+    .connect-head h1{
+        font-size:28px;
+    }
+    .connect-text {
+        padding:0 3rem;
+    }
+    .connect-text p{
+        font-size:18px;
+    }
+    /* footer page */
+    .footer-form input{
+        width:60%;
+        height: 40px;
+    }
+}

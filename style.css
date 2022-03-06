@@ -288,7 +288,6 @@ html, body {
     height: 400px;
     background: url('images/about-us-rect.png');
     background-size: cover;
-    /* overflow: hidden; */
     position: relative;
 }
 .blue-overlay {
@@ -739,7 +738,7 @@ html, body {
     }
 }
 
-@media only screen  and (max-width:720px) {
+@media only screen  and (max-width:768px) {
     /* nav bar */
     .nav-list a{
         font-size:12px;
@@ -752,7 +751,7 @@ html, body {
         width: 70px;
         height: 77px;
     } 
-    .nav-btn{
+    .nav-btn a{
         font-size: 12px;
         padding:5px;
     }
@@ -951,25 +950,12 @@ html, body {
         margin: 5px;
     }
     /* footer page */
-    .footer-sec img{
-        margin:20px 0 25px;
-        width: 80px;
-    }
-    .footer-icon i,p{
-        margin: 8px;
-        font-size: 12px;
-    }
-    .footer-comp h3{
-        font-size:20px;
-    }
     .footer-comp p{
-        margin: 12px;   
+        margin: 12px;
+        line-height: 1;
     }
     .footer-connect{
         text-align: center;
-    }
-    .footer-connect h2{
-        font-size: 20px;
     }
     .input-container{
         display: flex;
@@ -985,9 +971,6 @@ html, body {
         width:50%;
         height: 40px;
     }
-    .footer-bottom p{
-        font-size: 13px;
-    }
 }
 @media only screen and (max-width:575px){
     /* navbar */
@@ -1002,7 +985,7 @@ html, body {
         width: 60px;
         height: 67px;
     } 
-    .nav-btn{
+    .nav-btn a{
         font-size: 12px;
         padding:5px;
     }
@@ -1210,41 +1193,8 @@ html, body {
         margin: 5px;
     }
     /* footer page */
-    .footer-sec img{
-        margin:20px 0 25px;
-        width: 80px;
-    }
-    .footer-icon i,p{
-        margin: 8px;
-        font-size: 11px;
-    }
-    .footer-comp h3{
-        font-size:22px;
-    }
-    .footer-comp p{
-        margin: 10px;
-        line-height: 1;
-    }
-    .footer-connect{
-        text-align: center;
-    }
-    .footer-connect h2{
-        font-size: 20px;
-    }
-    .input-container{
-        display: flex;
-        justify-content: center;
-    }
-    .input-container i {
-        min-width: 30px;
-        padding: 5px;
-        height: 30px;
-    }
     .footer-form input{
-        width:70%;
+        width:60%;
         height: 40px;
-    }
-    .footer-bottom p{
-        font-size: 13px;
     }
 }
