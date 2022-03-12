@@ -325,15 +325,26 @@ html, body {
 }
 .port-head{
     text-align:center;
+    display: flex;
+    align-items: center;
+    margin:0 25rem;
 }
 .port-line{
     border-right: 3px dashed black;
     height: 100px;
     width: fit-content;
     display: block;
-    margin: 0 25rem;
+    margin: 10px auto 0;
 }
-.port-line h5{
+.cir {
+    background-color: #C78A53;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    margin: 2px auto;
+}
+.port-head h5{
     color:#87AAAA;
     font-size: 20px;
     line-height: 100px;
@@ -351,16 +362,18 @@ html, body {
     left: 0;
     font-size: 32px;
     font-weight: 700;
+    padding:10px 0;
 }
 .i-cont h4 {
     position: absolute;
-    top: 8%;
+    top: 9%;
     left: 0;
     color: #EDB161;
+    padding:10px 0;
 }
 .i-cont .p-grey {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 0;
     width: 300px;
     height: 250px;
@@ -386,6 +399,9 @@ html, body {
 }
 
 /* Comments:  Helly shah */
+.comment-cont{
+    margin-top:8rem;
+}
 .coment-head h1{
     margin:0 50px;
     text-transform: capitalize;
@@ -399,7 +415,7 @@ html, body {
     width: 80%;
 }
 .coment-sec{
-    margin:6rem 3rem;
+    margin:4rem 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -452,7 +468,7 @@ html, body {
     font-size: 18px;
     color: rgb(73, 73, 73);
     text-align:left ;
-    margin:15px;
+    margin:25px;
 }
 /* footer */
 .footer-top{
@@ -651,12 +667,11 @@ html, body {
         font-size: 15px;
     }
     /* portfolio page */
+    .port-head{
+        margin:0 4rem;
+    }
     .port-sec h2{
         line-height: 1;
-    }
-    .port-line{
-        /* height: 0px; */
-        margin: 0 10rem;
     }
     .port-line h5{
         font-size: 25px;
@@ -889,9 +904,11 @@ html, body {
     .port-sec h2{
         font-size: 28px;
     }
+    .port-head{
+        margin:  1rem 1rem 0; 
+    }
     .port-line{
-        height: 0px;
-        margin: 0 2rem;
+        margin: 0 1rem;
     }
     .port-line h5{
         font-size: 25px;
@@ -899,7 +916,7 @@ html, body {
     .i-cont {
         width: 50%;
         height: 400px;
-        margin: 5rem auto;
+        margin: 3rem auto;
     }
     .i-cont h2 {
         font-size: 25px;
@@ -1130,14 +1147,16 @@ html, body {
         font-size: 25px;
     }
     .port-line{
-        height: 0px;
         margin:0 1rem;
+    }
+    .cir{
+        margin: 2px 13px;
     }
     .port-line h5{
         font-size: 20px;
     }
     .i-cont {
-        margin-top:5rem;
+        margin-top:2rem;
         width: 50%;
         height: 450px;
     }
