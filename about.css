@@ -44,11 +44,10 @@ html, body {
 /* About page */
 .aboutpage{
     background-color: #ffe3be;
-    width:100%;
-    height: 1080px;
+    width:100vw;
 }
 .main-head{
-    margin:10rem auto;
+    margin:10rem auto ;
     padding-bottom:5rem;
 }
 .main-head h1{
@@ -65,14 +64,19 @@ html, body {
     color:#87AAAA;
     font-weight: 700;
 }
-.main-head-icon i{
-    font-size: 25px;
+.mouse-image{
+    text-align: center;
+    padding-bottom: 2rem;
 }
 /* AboutUs-service page */
+.about-service{
+    margin:5rem auto;
+    padding: 10px;
+}
 .about-service-img1{
     margin: 0 10px;
     float:right;
-}
+} 
 .ser-img1{
     width: 217px;
     height: 232px;
@@ -86,11 +90,11 @@ html, body {
     width:500px;
     height: 500px;
     margin:0;
-    padding: 0;
+    padding: 10px 30px;
 }
 .about-service-head{
-    margin:3rem 7rem;
-    padding: 0 5rem;
+    margin:3rem;
+    padding: 0 8rem;
     width: 681px;
     height: 517px;
 }
@@ -104,6 +108,41 @@ html, body {
     font-weight: 700;
     margin-top:2rem;
 }
+/* .about-service-img1{
+    margin: 0 10px;
+    float:right;
+}
+.ser-img1 img{
+    width: 117px;
+    height: 132px;
+}
+.ser-img2 img{
+    width: 215px;
+    height: 215px;
+    padding: 0 5rem 0 0;
+}
+.about-service-img2 img{
+    width:300px;
+    height: 300px;
+    margin:0;
+    padding: 0;
+}
+.about-service-head{
+    margin:3rem 0;
+    padding: 0 ;
+    width: 681px;
+    height: 517px;
+}
+.about-service-head h2{
+    color:#EDB161;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.about-service-head p{
+    color:#87AAAA;
+    font-weight: 700;
+    margin-top:2rem;
+} */
 /* About Numbers page */
 .about-numbers-head{
     color:#EDB161;
@@ -340,7 +379,6 @@ html, body {
     /*about page  */
     .aboutpage{
         height:auto;
-        padding-bottom: 5rem;
     }
     .main-head{
         margin:6rem auto;
@@ -353,6 +391,10 @@ html, body {
     .main-head p{
         width:60%;
         font-size: 15px;
+    }
+    .mouse-image{
+        padding:20px 0 ;
+        margin-bottom: 0;
     }
     /* AboutUs-service */
     .ser-img2 img{
@@ -378,9 +420,39 @@ html, body {
         font-size:12px;
         margin:20px auto ;
     }
+    /* .about-service{
+        margin:4rem auto;
+    }
+    .about-service-img1{
+        width:20%;
+        height: auto;
+    }
+    .ser-img1{
+        width:170px;
+        height: 162px;
+    }
+    .ser-img2{
+        padding: 0;
+        width:150px;
+        height: 60px;
+    }
+    .about-service-img2{
+        width:20%;
+        height: auto;
+    }
+    .about-service-head h2{
+        width:70%;
+        font-size:25px;
+        margin:10px auto;
+    }
+    .about-service-head p{
+        width: 70%;
+        font-size:12px;
+        margin:20px auto ;
+    } */
     /* about numbers */
     .about-numbers-para {
-        width:45%;
+        width:40%;
         font-size: 14px;
         padding: 0;
     }
@@ -480,7 +552,7 @@ html, body {
     /*about page  */
     .main-head{
         height: auto;
-        margin:6rem auto;
+        margin:7rem auto;
     }
     .main-head h1{
         width:100%;
@@ -489,6 +561,9 @@ html, body {
     .main-head p{
         width:80%;
         font-size: 14px;
+    }
+    .mouse-image{
+        padding: 4rem 0 2rem; 
     }
     /* AboutUs-service */
     .about-service-img1 img{
@@ -659,8 +734,9 @@ html, body {
     }
     .about-work-head h1{
         font-size:25px;
-        width: 110%;
+        width: 100%;
         line-height: 1.3;
+        text-align: center;
     }
     .img-about {
         display: none;

@@ -45,17 +45,15 @@ html, body {
 /* portfolio page */
 .portfolio_page{
     background-color: #ffe3be;
-    width:100%;
-    height: 1080px;
-    padding-bottom:5px;
+    width:100vw;
 }
 .main-head{
-    margin:12rem auto;
-    /* padding-bottom:5rem; */
+    margin:10rem auto;
+    padding-bottom:5rem;
 }
 .main-head h1{
     font-size:50px;
-    margin:8rem auto 0;
+    margin:12rem auto 0;
     width:40%;
     color:#47645D;
     text-transform: capitalize;
@@ -66,6 +64,10 @@ html, body {
     width:45%;
     color:#87AAAA;
     font-weight: 500;
+}
+.mouse-image{
+    text-align: center;
+    padding-bottom: 2rem;
 }
 /* work-portfolio page */
 .work_portfolio{
@@ -185,6 +187,10 @@ html, body {
     .main-head p{
         width:80%;
         font-size: 15px;
+    }
+    .mouse-image{
+        padding:20px 0 ;
+        margin-bottom: 0;
     }
     /* work-portfolio page */
     .work_portfolio{
@@ -321,6 +327,9 @@ html, body {
     .main-head p{
         width:90%;
         font-size: 12px;
+    }
+    .mouse-image{
+        padding:2rem 0;
     }
     /* work-portfolio page */
     .work_portfolio{
