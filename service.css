@@ -4,8 +4,21 @@ html, body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
+.back-box{
+    position: absolute;
+    width:200px;
+    height: 720px;
+    top:0px;
+    margin: 0 auto;
+    left:0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.6;
+    background: linear-gradient(180deg, #FED399 -60.91%, #fff2e0 100%);  
+}
 .nav-bar{
     position: relative;
+    margin:3rem 2rem;
 }
 .nav-list a{
 	color:#87AAAA;
@@ -24,6 +37,7 @@ html, body {
 }
 .nav-img {
     position: relative;
+    margin:0 35px 0 0;
 }
 .nav-img img{
     width: 100px;
@@ -43,10 +57,10 @@ html, body {
 } /* 50% border left and bottom */
 /* service page */
 .service-head{
-    margin:5rem auto;
+    margin:8rem auto;
 }
 .service-head h1{
-    width:35%;
+    width:40%;
     margin: 0 auto;
     text-transform: capitalize;
     color:#47645D;
@@ -59,14 +73,14 @@ html, body {
     margin:2.5rem auto;
 }
 .head-grey{
-    width:15%;
+    width:12%;
     background-color: #93b8b8;
     border:10px solid #cbe4e4;
     border-radius:100px;
-    margin:0 auto;
+    margin:4rem auto 0;
 }
 .head-grey h4{
-    padding:5px;
+    padding:10px 10px 2px;
     text-align: center;
 }
 .v-line{
@@ -74,7 +88,7 @@ html, body {
     height: 100px;
     width: fit-content;
     display: block;
-    margin: 20px auto 4px;
+    margin: 15px auto 4px;
 }
 .cir {
     background-color: #C78A53;
@@ -109,7 +123,7 @@ html, body {
 .roadmap-head h1{
     color: #EDB161;
     width: 70%;
-    margin:1rem 5rem;
+    text-align: center;
     font-weight: 700;
     text-transform: capitalize;
 }
@@ -283,6 +297,10 @@ html, body {
     } 
     .nav-btn a{
         font-size: 15px;
+        padding:5px 8px;
+    }
+    .back-box{
+        height:650px;
     }
     /* service page */
     .service-head{
@@ -296,7 +314,8 @@ html, body {
         margin:2rem auto;
     }
     .head-grey{
-        width:25%;
+        margin-top:3rem;
+        width:15%;
     }
     .v-line{
         margin: 10px auto 4px;
@@ -307,7 +326,7 @@ html, body {
     }
     .roadmap-head h1{
         width: 90%;
-        margin:2rem 4rem;
+        margin-top:2rem ;
         font-size: 32px;
     }
     .our-service{
@@ -385,8 +404,14 @@ html, body {
 }
 @media (max-width:768px){
     /* navbar */
+    .nav-bar{
+        margin:4rem 1rem;
+    }
     .nav-list a{
         font-size:12px;
+    }
+    .nav-img{
+        margin:0 25px 0 0;
     }
     .nav-img img{
         width: 80px;
@@ -395,6 +420,10 @@ html, body {
     .nav-btn a{
         font-size: 12px;
         padding:5px;
+    }
+    .back-box{
+        width:150px;
+        height: 600px;
     }
     /* service page */
     .service-head h1{
@@ -405,7 +434,7 @@ html, body {
         margin:1rem auto;
     }
     .head-grey{
-        width:30%;
+        width:20%;
     }
     /* service roadmap page */
     .ser-roadmap{
@@ -417,8 +446,8 @@ html, body {
     }
     .roadmap-head h1{
         width: 100%;
-        margin:0 2rem ;
-        font-size: 28px;
+        margin-top: 1rem;
+        font-size: 25px;
     }
     .our-service{
         margin:4rem auto 0;
@@ -477,26 +506,36 @@ html, body {
 }
 @media (max-width:576px){
     /* navbar */
+    .nav-bar{
+        margin:2rem;
+    }
+    .nav-img{
+        margin:0 0 0 27px;
+    }
     .custom-active {
         padding:0 5px;
-        margin-left: 10px;
+        margin-left: -6px;
     }
     .nav-btn{
-        margin-top: 2px;
+        margin-left: -12px;
+    }
+    .back-box{
+        width: 120px;
+        height: 600px;
     }
     /* service page */
     .service-head{
-        margin:1rem auto;
+        margin:4rem auto;
     }
     .service-head h1{
         width:85%;
     }
     .service-head p{
         width:100%;
-        margin:1rem auto;
+        margin:1.5rem auto;
     }
     .head-grey{
-        width:40%;
+        width:30%;
     }
     /* service roadmap page */
     .ser-roadmap{
@@ -506,7 +545,6 @@ html, body {
        display: none;
     }
     .roadmap-head h1{
-        margin:0 2rem ;
         font-size: 28px;
     }
     .our-service {
