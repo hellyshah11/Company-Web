@@ -599,7 +599,7 @@ html, body {
         bottom: 25%;
     }
     .blue-img {
-        width: 110%;
+        width: 100%;
         height: 350px;
     }
     .title {
@@ -609,7 +609,7 @@ html, body {
     }
     .details {
         padding:0 15px;
-        bottom: 20%;
+        bottom: 27%;
         font-size: 12px;
     }
     /* portfolio page */
@@ -828,7 +828,7 @@ html, body {
         margin-left: -30px;
     }
     .blue-img {
-        width: 110%;
+        width: 105%;
         height: 350px;
         margin:0 20px;
     }
@@ -838,7 +838,7 @@ html, body {
         font-size: 15px;
     }
     .details {
-        bottom: 30%;
+        bottom: 35%;
         padding: 0 10px;
         font-size: 12px;
     }
