@@ -5,40 +5,292 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DeadMad Technologies</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.js"></script>
-    <script src="https://kit.fontawesome.com/87da49c80d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="libraries/Owl/dist/assets/owl.carousel.min.css">   <!-- owl carousel-->
+    <link rel="stylesheet" href="libraries/Owl/dist/assets/owl.theme.default.min.css"> <!-- owl carousel-->
+    <link rel="stylesheet" href="libraries/css/bootstrap.css"> <!-- css bootstarp-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/font.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg ">
-        <div class="collapse navbar-collapse">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-sm nav-bar">
+        <div class="container-fluid">
             <ul class="navbar-nav mr-auto m-5 ">
-                <li class="nav-item active pr-4">
-                  <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item nav-list custom-active pr-4">
+                    <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item pr-4">
-                  <a class="nav-link" href="#">About Us</a>
+                <li class="nav-item nav-list pr-4">
+                    <a class="nav-link" href="about.html">About Us</a>
                 </li>
-                <li class="nav-item pr-4">
-                  <a class="nav-link" href="#">Services</a>
+                <li class="nav-item nav-list pr-4">
+                    <a class="nav-link" href="service.html">Services</a>
                 </li>
             </ul>
             <ul class="navbar-nav me-auto ms-auto mb-lg-0">
-                <li class="nav-item nav-img" >
+                <li class="nav-item nav-list nav-img" >
                     <a href="#"> <img  src="./images/Dm logo 1.png" alt="deadmad logo"></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto m-5">
-                <li class="nav-item pr-4">
-                    <a class="nav-link" href="#">Portfolio</a>
+                <li class="nav-item nav-list pr-4">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <button class="nav-btn btn" type="submit">Contact Us</button>  
+                <button class="nav-btn btn" type="submit"><a href="contact.html">Contact Us</a></button>  
             </ul>
         </div>
-    </nav>  
+    </nav>   
+    <!-- Home Page -->
+    <section class="HomePage">
+        <div class="container-fluid  home-content">
+            <div class="row">
+                <div class="col-xs-4 col-sm-1 col-md-2 position-relative">
+                    <div class="home-soc">
+                        <div class="home-icons">
+                            <i class="fab fa-instagram d-block"></i>
+                            <i class="fab fa-dribbble d-block"></i>
+                            <i class="fab fa-linkedin-in d-block"></i>
+                            <i class="fab fa-behance d-block"></i>
+                        </div>
+                        <div class="icon-line"></div>
+                    </div>
+                </div>
+                <div class="col-xs-8 col-sm-2 col-md-5 home-text">
+                    <h1>Deadmad A Highly Passionated IT Professionals To Bring An Inovation To The World</h1>
+                    <h4>We at Deadmad Technologies are always curious to get best out of us by brainstorming    the criticals to make it happen in reallife</h4>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-5 home-img">
+                    <img src="./images/home-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="about mt-5">
+        <div class="container-fluid">
+            <div class="row gx-0">
+                <div class="col-sm-4 col-md-4">
+                    <div class="img-about">
+                        <div class="pink-overlay"></div>
+                    </div>
+                </div>
+                <div class=" col-sm-2 col-md-3">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 r-text1">
+                    <p>We are your Backbones for all of your concerns and bring life to your toughts </p>
+                </div>
+            </div>
+            <div class="row gx-0 row-about">
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <p class="l-text">About  us</p>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3">
+                    <div class="img-custom">
+                        <div class="orange-overlay"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 r-text2">
+                    <p>We are a team of highly trained and passionated people that have a thoughtful mindset to bring value to your respecful idea. </p>
+                    <p> We are a community of people that will produce a very useful solutions to people with perfect User experience with a very minimal and easy to interact User Interface.</p>
+                    <div class="connect-text">
+                        <div><i class="fas fa-external-link-alt"></i></div>
+                        <p>Connect with us</p> <!-- add icon in i using font-awesome -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="service m-5" > 
+        <div class="container-fluid">
+            <h2>Services</h2>
+            <h2>To get advantage of</h2>
+            <div class="h-line"></div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="outer-circle">
+                        <div class="inner-text">
+                            <p>Services</p>
+                        </div>
+                        <div class="inner-circle">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-md-1"><div class="v-line"></div></div>
+                <div class="col-sm-7 col-md-7 service-text">
+                    <p>For you, we have a wide range of service to offer and build a complete solution for a project from start to end.</p> 
+                    <p>Our services will deliver digital revolution packaged in a powerful integrated solution, we are serving ourself as a complete unique, robust, and secure solutions to the IT world.</p> 
+                    <p>Choose the perfect service for your upcomings to best serve the purpose of it., and make a bang with your vision in the segment</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-xs-12 col-sm-2 col-md-4 position-relative">
+                    <p class="all-service position-absolute ">See All <br> Sevices</p>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                    <div class="blue-img">
+                        <div class='blue-overlay'>
+                            <img src="./images/ser-img2.png"  alt="">
+                        </div>
+                        <div class="title">UI/UX</div>
+                        <div class="details">UI/UX is a core of an any projects to bring life to it and make it more interactive with people and with correct concept it will help to connect perfectly with people</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                    <div class="blue-img">
+                        <div class='blue-overlay'>
+                            <img src="./images/ser-img1.png" alt="">
+                        </div>
+                        <div class="title">App <br> Development</div>
+                        <div class="details"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio mt-5 pt-5" >
+        <div class="row">
+            <div class="col-md-12 port-sec mt-5">
+                <h2>The Projects we Created</h2>
+                <h2>to solve the problems of many</h2>
+            </div>
+            <div class="col-md-12 port-head">
+                <h5>See Our Portfolio</h5>
+                <div>
+                    <div class="port-line"></div>
+                    <div class="cir"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="owl-carousel">
+                <div class="item i-1">
+                    <div class="i-cont">
+                        <h2>Lorem Ipsum</h2>
+                        <h4>Lorem Ipsum</h4>
+                        <div class="p-grey">
+                            <img src="./images/slider1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item i-2">
+                    <div class="i-cont">
+                        <h2>Lorem Ipsum</h2>
+                        <h4>Lorem Ipsum</h4>
+                        <div class="p-grey">
+                            <img src="./images/slider2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item i-1">
+                    <div class="i-cont">
+                        <h2>Lorem Ipsum</h2>
+                        <h4>Lorem Ipsum</h4>
+                        <div class="p-grey">
+                            <img src="./images/slider3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item i-2">
+                    <div class="i-cont">
+                        <h2>Lorem Ipsum</h2>
+                        <h4>Lorem Ipsum</h4>
+                        <div class="p-grey">
+                            <img src="./images/slider4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-nav">
+                <button class="l-btn" type="button" id='l-btn'><i class="fa fa-arrow-left"></i></button>
+                <button class="r-btn" type="button"><i class="fa fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="comments">
+        <div class="container">
+            <div class="row comment-cont">
+                <div class="col-sm-12 col-md-5 coment-head">
+                    <h1>Some Valuable Words from our clients</h1>
+                </div>
+                <div class="col-sm-12 col-md-7 coment-para">
+                    <p>We have a very valuable feedbacks from some of our Succesful clients to showcase some value adding words for us to always stay motivated and add more and more efforts in the services to deliver a power pack to Clients</p>
+                </div>
+            </div>
+            <div class="row coment-sec">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="coment-1">
+                        <img src="https://i.pinimg.com/564x/49/af/14/49af147a467ace4768394811d8ad1649.jpg" alt="">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit fuga quos voluptas sint sed. </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+                    <div class="coment-2">
+                        <img src="https://i.pinimg.com/564x/49/af/14/49af147a467ace4768394811d8ad1649.jpg" alt="">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deserunt dolorum rem, corrupti voluptatum facilis et? Cupiditate, facilis delectus, alias mollitia maxime unde, doloribus autem reiciendis reprehenderit vero et deleniti. </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                    <div class="coment-1">
+                        <img src="https://i.pinimg.com/564x/49/af/14/49af147a467ace4768394811d8ad1649.jpg" alt="">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit fuga quos voluptas sint sed. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer mt-5">
+        <div class="row footer-top me-auto ms-auto">
+            <div class="col-md-4 footer-sec text-center">
+                <img src="./images/Dm logo 1.png" alt="" >
+                <div class="footer-icon">
+                    <div><i class="fas fa-envelope"></i></div>
+                    <p>dmtechnologies@gmail.com</p>
+                </div>
+                <div class="footer-icon">
+                    <div><i class="fas fa-phone-alt"></i></div>
+                    <p>+91 1234567890</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center mt-4 footer-comp">
+                <h3>COMPANY</h3>
+                <P>Home</P>
+                <p>about us</p>
+                <p>services</p>
+                <p>portfolio</p>
+                <p>career</p>
+            </div>
+            <div class="col-md-5 mt-4 footer-connect">
+                <h2>Have an Idea ? </h2>
+                <h2>connect with us to make it Happen</h2>
+                <form action="" class="mt-4 footer-form">
+                    <div class="input-container">
+                        <input type="email" name="email" placeholder="Enter your Email">
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row footer-bottom">
+            <div class="col-md-12 ">
+                <p class="text-center">All rights reserved by © Deadmad technologies</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="libraries/jquery.js"></script>
+    <script src="Libraries/Owl/dist/owl.carousel.min.js"></script> <!-- owl carousel --> 
+    <!-- for font awesome -->
+    <script src="https://kit.fontawesome.com/87da49c80d.js" crossorigin="anonymous"></script>
+    <!-- for js bootstrap -->
+    <script src="libraries/js/bootstrap.js"></script>  
+ 
+    <script src="script.js"></script>
 </body>
 </html>

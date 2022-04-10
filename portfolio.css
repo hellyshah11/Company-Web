@@ -1,0 +1,358 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.nav-bar{
+    position: relative;
+}
+.nav-list a{
+	color:#87AAAA;
+	font-size: 18px;
+}
+.nav-btn a{
+    color:white;
+    background-color: #EDB161;
+    margin:0;
+    padding:10px;
+    text-decoration: none;
+} 
+.nav-btn:hover{
+    text-decoration: none;
+    color: white;
+}
+.nav-img {
+    position: relative;
+}
+.nav-img img{
+    width: 100px;
+    height: 107px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.custom-active {
+    border-left: 2px solid #EDB161;
+    border-image: linear-gradient(to top, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+    border-bottom: 2px solid black;
+    border-image: linear-gradient(to right, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+} /* 50% border left and bottom */
+
+/* portfolio page */
+.portfolio_page{
+    background-color: #ffe3be;
+    width:100vw;
+}
+.main-head{
+    margin:10rem auto;
+    padding-bottom:5rem;
+}
+.main-head h1{
+    font-size:50px;
+    margin:12rem auto 0;
+    width:40%;
+    color:#47645D;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.main-head p{
+    margin: auto;
+    width:45%;
+    color:#87AAAA;
+    font-weight: 500;
+}
+.mouse-image{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+/* work-portfolio page */
+.work_portfolio{
+    margin:5rem;
+}
+.work-port-head h2{
+    color:#EDB161;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.i-cont{
+    position: relative;
+    overflow: hidden;
+}
+.p-grey img{
+    width:350px;
+    height: 500px;
+}
+.i-cont h2{
+    color:#47645D;
+    margin:1rem 6rem 0.5rem 0;
+}
+.i-cont h4{
+    color:#EDB161;
+    margin: 0 8rem 0 0;
+}
+.i-2 , .i-3{
+    margin-top: -6rem;
+}
+/* footer page*/
+.footer-top{
+    background-color: #fcf3ed;
+    padding: 10px;
+}
+.footer-sec img{
+    margin:20px 0 25px;
+    width: 100px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i,p{
+    margin: 10px 10px;
+    color:#47645D;
+}
+.footer-comp h3{
+    font-size:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-comp p{
+    margin: 20px;
+    text-transform: uppercase;
+}
+.footer-connect h2{
+    color: #EDB161;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+}
+.input-container i {
+    background: #EDB161;
+    color: white;
+    min-width: 40px;
+    padding: 10px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: -50px;
+    text-align: center;
+}
+.footer-form input{
+    border: 2px solid black;
+    width:70%;
+    outline: none;
+    height: 50px;
+    background-color: #fcf3ed;
+    padding: 10px 20px;
+}
+.footer-bottom{
+    background-color: #EDB161;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 16px;
+}
+/* Media Queries */
+@media only screen and (max-width:992px){
+    /* navbar */
+    .nav-list a{
+        font-size:15px;
+    }
+    .nav-img img{
+        width: 90px;
+        height: 97px;
+    } 
+    .nav-btn a{
+        font-size: 15px;
+    }
+    /*portfolio page  */
+    .portfolio_page{
+        height: auto;
+    }
+    .main-head{
+        margin:8rem auto;
+        padding-bottom:4rem;
+    }
+    .main-head h1{
+        margin:2rem auto 0;
+        width:80%;
+        font-size: 40px;
+    }
+    .main-head p{
+        width:80%;
+        font-size: 15px;
+    }
+    .mouse-image{
+        padding:20px 0 ;
+        margin-bottom: 0;
+    }
+    /* work-portfolio page */
+    .work_portfolio{
+        margin:5rem 2rem;
+    }
+    .work-port-head h2{
+       font-size: 25px;
+    }
+    .p-grey img{
+        width:300px;
+        height: 400px;
+    }
+    .i-cont h4{
+        font-size: 20px;
+    }
+    /* footer page */
+    .footer-sec img{
+        width: 80px;
+    }
+    .footer-icon i,p{
+        margin: 5px;
+        font-size: 12px;
+    }
+    .footer-comp h3{
+        font-size:18px;
+    }
+    .footer-comp p{
+        margin: 12px;
+    }
+    .footer-connect h2{
+        font-size: 20px;
+    }
+    .input-container i {
+        padding: 8px;
+        height: 35px;
+        margin-top: 8px;
+    }
+    .footer-form input{
+        width:80%;
+    }
+    .footer-bottom p{
+        font-size: 13px;
+    }
+}
+@media (max-width:768px){
+    /* navbar */
+    .nav-list a{
+        font-size:12px;
+    }
+    .nav-img img{
+        width: 80px;
+        height: 87px;
+    } 
+    .nav-btn a{
+        font-size: 12px;
+        padding:5px;
+    }
+    /*portfolio page  */
+    .main-head{
+        margin:8rem auto;
+        padding-bottom: 5rem;
+    }
+    .main-head h1{
+        margin:5rem auto 0;
+        width:100%;
+        font-size: 35px;
+    }
+    .main-head p{
+        width:90%;
+        font-size: 14px;
+    }
+    /* work portfolio page */
+    .work_portfolio{
+        margin:2rem 1rem;
+    }
+    .work-port-head h2{
+        margin:5px;
+        font-size: 30px;
+    }
+    .i-cont{
+        margin-top: 20px;
+    }
+    .i-1, .i-3{
+        margin-left: 15rem;
+    }
+    .i-2{
+        margin-right: 15rem;
+    }
+    .i-3{
+        margin-top: -1rem;
+    }
+    /* footer page */
+    .footer-comp p{
+        margin: 12px;
+        line-height: 1;
+    }
+    .footer-connect{
+        text-align: center;
+    }
+    .input-container{
+        display: flex;
+        justify-content: center;
+    }
+    .input-container i {
+        min-width: 30px;
+        padding: 5px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .footer-form input{
+        width:50%;
+        height: 40px;
+    }
+}
+@media (max-width:576px){
+    /* navbar */
+    .custom-active {
+        padding:0 5px;
+        margin-left: 10px;
+    }
+    .nav-btn{
+        margin-top: 2px;
+    }
+    /*portfolio page  */
+    .main-head{
+        margin:5rem auto;
+        padding-bottom: 5rem;
+    }
+    .main-head h1{
+        margin:2.5rem auto 0;
+        width:100%;
+        font-size: 30px;
+    }
+    .main-head p{
+        width:90%;
+        font-size: 12px;
+    }
+    .mouse-image{
+        padding:2rem 0;
+    }
+    /* work-portfolio page */
+    .work_portfolio{
+        margin:3rem 2rem;
+    }
+    .work-port-head h2{
+       font-size: 28px;
+    }
+    .p-grey img{
+        margin-top:20px;
+    }
+    .i-cont h4{
+        font-size: 20px;
+    }
+    .i-cont{
+        margin-top: 20px;
+    }
+    .i-1, .i-3, .i-2{
+        margin:0;
+    }
+    /* footer page */
+    .footer-form input{
+        width:60%;
+        height: 40px;
+    }
+}

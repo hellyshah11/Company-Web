@@ -1,0 +1,720 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.nav-bar{
+    position: relative;
+}
+.nav-list a{
+	color:#87AAAA;
+	font-size: 18px;
+}
+.nav-btn a{
+    color:white;
+    background-color: #EDB161;
+    margin:0;
+    padding:10px;
+    text-decoration: none;
+} 
+.nav-btn:hover{
+    text-decoration: none;
+    color: white;
+}
+.nav-img {
+    position: relative;
+}
+.nav-img img{
+    width: 100px;
+    height: 107px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.custom-active {
+    border-left: 2px solid #EDB161;
+    border-image: linear-gradient(to top, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+    border-bottom: 2px solid black;
+    border-image: linear-gradient(to right, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+} /* 50% border left and bottom */
+/* About page */
+.aboutpage{
+    background-color: #ffe3be;
+    width:100vw;
+}
+.main-head{
+    margin:10rem auto ;
+    padding-bottom:5rem;
+}
+.main-head h1{
+    font-size:50px;
+    margin:auto;
+    width:30%;
+    color:#47645D;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.main-head p{
+    margin: auto;
+    width:40%;
+    color:#87AAAA;
+    font-weight: 700;
+}
+.mouse-image{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+/* AboutUs-service page */
+.about-service{
+    margin:5rem auto;
+    padding: 10px;
+}
+.about-service-img2 img{
+    width: 420px;
+    height: 420px;
+    margin-left:8rem;   
+}
+.about-service-img1{
+    width:10%;
+    margin-left:-10px;
+}
+.ser-img2{
+    margin-left: 130px;
+}
+.about-service-head{
+    margin:auto 0;
+    margin-left: 18rem;
+    width: 700px;
+}
+.about-service-head h2{
+    color:#EDB161;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
+}
+.about-service-head p{
+    color:#87AAAA;
+    font-weight: 700;
+    margin-top:1.5rem;
+}
+
+/* About Numbers page */
+.about-numbers{
+    margin:0 15px;
+}
+.about-numbers-head{
+    color:#EDB161;
+    font-weight: 700;
+    font-size: 40px;
+}
+.h-line{
+    margin-top: 20px ;
+    width: 100%;
+    height: 2px;
+    background-color: #87AAAA; 
+}
+.about-numbers-para{
+    color:#87AAAA;
+    width:35%;
+    font-weight: 700;
+}
+.v-line {
+    height: 100%;
+    width: 2px;
+    background-color: #87AAAA;
+    display: block;
+    margin: 0 auto;
+}
+.about-numbers-client{
+    padding:0 2rem;
+    margin-left: -10px;
+}
+.about-numbers-client h4{
+    color:#35656D;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-numbers-client a{
+    color:#EDB161;
+    font-weight: 500;
+}
+/* About work page */
+.about-work-head h1{
+    width:75%;
+    font-size:32px;
+    margin:0 auto;
+    text-transform: capitalize;
+    color:#EDB161;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.img-about {
+    margin:0 auto;
+    width: 100%;
+    height: 150px;
+    background: url('./images/about-us-rect.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.pink-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f8f1e7;
+    opacity: 0.8;
+}
+.blue-img {
+    width: 270px;
+    height: 369px;
+    background: url('./images/about-us-rect.png');
+    background-size: cover;
+    /* overflow: hidden; */
+    position: relative;
+}
+.blue-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(135, 170, 170,0.7) 40%, rgba(255, 255, 255, 1) 100%);
+    width: 100%;
+    height: 100%;
+}
+.details{
+    position: absolute;
+    padding:10px;
+}
+.details h3{
+    font-size:55px;
+    color:rgba(53, 101, 109,0.6);
+    font-weight: 700;
+}
+.details p{
+    color:rgb(109, 136, 136);
+    font-weight: 700;
+    font-size: 22px;
+}
+.orange-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(237, 177, 97,0.6) 40%, rgba(255, 255, 255, 1) 100%);
+    width: 100%;
+    height: 100%;
+}
+.i-1{
+    margin-top: 4rem;
+}
+.i-2{
+    margin-top:8rem;
+}
+.i-3{
+    margin-top: 12rem;
+}
+/* About Connect page */
+.about-connect{
+    padding-bottom: 5rem;
+}
+.about-connect-div{
+    background-color: rgba(151, 185, 185, 0.6);
+    padding:6rem 2rem;
+    border: 12px solid rgba(151, 185, 185, 0.6);
+    border-radius: 30px;
+    width: 1600px;
+    height: 352px;
+}
+.connect-head h1{
+    text-transform: capitalize;
+    color:#3e5751;
+    font-size:35px;
+    font-weight: 700;
+}
+.connect-head p{
+    color:#5c8d8d;
+    width:65%;
+    font-weight: 700;
+    margin-top:15px;
+    font-size: 16px;
+}
+.connect-text {
+    color: #EDB161;
+    display: flex;
+    margin-top: 10px;
+    padding: 0 10rem;
+}
+.connect-text div {
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #EDB161;
+}
+.connect-text i {
+    color: white;
+    font-size: 22px;
+    padding:11px;
+}
+.connect-text p {
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 700;
+}
+/* footer page*/
+.footer-top{
+    background-color: #fcf3ed;
+    padding: 10px;
+}
+.footer-sec img{
+    margin:20px 0 25px;
+    width: 100px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i,p{
+    margin: 10px 10px;
+    color:#47645D;
+}
+.footer-comp h3{
+    font-size:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-comp p{
+    margin: 20px;
+    text-transform: uppercase;
+}
+.footer-connect h2{
+    color: #EDB161;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+}
+.input-container i {
+    background: #EDB161;
+    color: white;
+    min-width: 40px;
+    padding: 10px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: -50px;
+    text-align: center;
+}
+.footer-form input{
+    border: 2px solid black;
+    width:70%;
+    outline: none;
+    height: 50px;
+    background-color: #fcf3ed;
+    padding: 10px 20px;
+}
+.footer-bottom{
+    background-color: #EDB161;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 16px;
+}
+/* Media Queries */
+@media screen and (max-width:1200px){
+    /* about-us service */
+    .about-service-img2 img{
+        width:350px;
+        height:350px;
+        margin-left: 6rem;
+    }
+     .about-service-img1{
+        width:10%;
+        margin-left: -30px;
+    }
+    .ser-img1 img{
+        width: 200px;
+    }
+    .ser-img2{
+        margin-left: 80px;
+    }
+    .ser-img2 img{
+        width: 100px;
+    }
+    .about-numbers-head{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:992px){
+    /* navbar */
+    .nav-list a{
+        font-size:15px;
+    }
+    .nav-img img{
+        width: 90px;
+        height: 97px;
+    } 
+    .nav-btn a{
+        font-size: 15px;
+    }
+    /*about page  */
+    .aboutpage{
+        height:auto;
+    }
+    .main-head{
+        margin:6rem auto;
+        padding-bottom:2rem;
+    }
+    .main-head h1{
+        width:50%;
+        font-size: 40px;
+    }
+    .main-head p{
+        width:60%;
+        font-size: 15px;
+    }
+    .mouse-image{
+        padding:20px 0 ;
+        margin-bottom: 0;
+    }
+    /* AboutUs-service */
+    .about-service-img2 img{
+        width:280px;
+        height:280px;
+        margin-left: 4rem;
+    }
+    .about-service-img1{
+        margin-left: -30px;
+    }
+    .ser-img1 img{
+        width: 150px;
+    }
+    .ser-img2 img{
+        width:70px ;
+    }
+    .ser-img2{
+        margin-left: 60px;
+    }
+    .about-service-head{
+        width:350px;
+        margin-left:10rem;
+    }
+    .about-service-head h2{
+        width:100%;
+        font-size:25px;
+        margin:10px auto;
+    }
+    .about-service-head p{
+        width: 100%;
+        font-size:12px;
+        margin:20px auto ;
+    } 
+    /* about numbers */
+    .about-numbers-para {
+        width:40%;
+        font-size: 14px;
+        padding: 0;
+    }
+    .about-numbers-client{
+        width: 40%;
+    }
+    .about-numbers-client h4{
+        font-size: 25px;
+    }
+    .about-numbers-client a{
+        font-size: 12px;
+    }
+    /* about work */
+    .about-work-head h1{
+        width:90%;
+        font-size:28px;
+    }
+    .blue-img {
+        width:150px;
+        height: 300px;
+    }
+    .details h3{
+        font-size:50px;
+    }
+    .details p{
+        font-size: 18px;
+    }
+    /* about connect */
+    .about-connect-div{
+        padding:30px;
+        width: auto;
+        height: auto;
+    }
+    .connect-head h1{
+        font-size:30px;
+    }
+    .connect-head p{
+        width:100%;
+    }
+    .connect-text {
+        padding: 0 3rem;
+    }
+    .connect-text div {
+        width: 55px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .connect-text i {
+        font-size: 20px;
+        padding:8px;
+    }
+    .connect-text p {
+        font-size: 15px;
+    }
+    /* footer page */
+    .footer-sec img{
+        width: 80px;
+    }
+    .footer-icon i,p{
+        margin: 5px;
+        font-size: 12px;
+    }
+    .footer-comp h3{
+        font-size:18px;
+    }
+    .footer-comp p{
+        margin: 12px;
+    }
+    .footer-connect h2{
+        font-size: 20px;
+    }
+    .input-container i {
+        padding: 8px;
+        height: 35px;
+        margin-top: 8px;
+    }
+    .footer-form input{
+        width:80%;
+    }
+    .footer-bottom p{
+        font-size: 13px;
+    }
+}
+@media (max-width:768px){
+     /* navbar */
+    .nav-list a{
+        font-size:12px;
+    }
+    .nav-img img{
+        width: 80px;
+        height: 87px;
+    } 
+    .nav-btn a{
+        font-size: 12px;
+        padding:5px;
+    }
+    /*about page  */
+    .main-head{
+        height: auto;
+        margin:7rem auto;
+    }
+    .main-head h1{
+        width:100%;
+        font-size: 35px;
+    }
+    .main-head p{
+        width:80%;
+        font-size: 14px;
+    }
+    .mouse-image{
+        padding: 4rem 0 2rem; 
+    }
+    /* AboutUs-service */
+    .about-service-img2 img{
+        width:350px;
+        height:350px;
+    }
+    .about-service-img2{
+        margin: 0 70px;
+    }
+    .about-service-img1{
+        margin-left: 10px;
+    }
+    .ser-img1 img{
+        width: 200px;
+    }
+    .ser-img2 img{
+        width:100px ;
+    }
+    .ser-img2{
+        margin-left: 80px;
+    }
+    .about-service-head{
+        width:100%;
+        margin:30px 10px;
+    }
+    .about-service-head h2{
+        font-size:30px;
+    }
+    .about-service-head p{
+        font-size:13px;
+    } 
+    /* About Numbers page */
+    .about-numbers-head{
+        margin-top:2rem;
+    }
+    .about-numbers-para{
+        width:30%;
+        font-size: 15px;
+    }
+    .about-numbers-client h4{
+        font-size: 30px;
+    }
+    .about-numbers-client a{
+        font-size: 15px;
+    }
+    /* about work */
+    .about-work-head h1{
+        width:120%;
+        font-size:22px;
+    }
+    .img-about {
+        padding:0 20px;
+        width: 80%;
+        height: 100px;
+    }
+    .blue-img {
+        width: 100%;
+        height: 250px;
+    }
+    .details h3{
+        font-size:55px;
+    }
+    .details p{
+        font-size: 20px;
+    }
+    .i-1, .i-2, .i-3{
+        margin-top: 0;
+    }
+    .i-2, .i-3{
+        padding-top: 20px;
+    }
+    /* about connect */
+    .connect-head h1{
+        font-size:30px;
+        text-align: center;
+    }
+    .connect-text {
+        padding:0 4rem;
+    }
+    .connect-text p{
+        font-size:22px;
+    }
+    /* footer page */
+    .footer-comp p{
+        margin: 12px;
+        line-height: 1;
+    }
+    .footer-connect{
+        text-align: center;
+    }
+    .input-container{
+        display: flex;
+        justify-content: center;
+    }
+    .input-container i {
+        min-width: 30px;
+        padding: 5px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .footer-form input{
+        width:50%;
+        height: 40px;
+    }
+}
+@media (max-width:576px){
+     /*about page  */
+    .main-head{
+        height: auto;
+        margin:3rem auto;
+    }
+    .main-head h1{
+        width:100%;
+        font-size: 30px;
+    }
+    .main-head p{
+        width:90%;
+        font-size: 12px;
+    }
+    .custom-active {
+        padding:0 5px;
+        margin-right: 10px;
+    }
+    /* AboutUs-service */
+    .about-service-img2 img{
+        width:220px;
+        height:220px;
+        margin: 0 ;
+    }
+    .about-service-img2{
+        margin-right: -15rem;
+    }
+    .about-service-img1{
+        margin:15px 30px 10px -15px;
+    }
+    .ser-img1 img{
+        width: 120px;
+    }
+    .ser-img2 img{
+        width:50px ;
+    }
+    .ser-img2{
+        margin-left: 50px;
+    } 
+    /* About Numbers page */
+    .about-numbers-para{
+        width:100%;
+        font-size: 20px;
+    }
+    .about-numbers-client h4{
+        font-size: 30px;
+    }
+    .about-numbers-client a{
+        font-size: 15px;
+    }
+    /* about work */
+    .about-work-head{
+        padding: auto;
+        margin: auto;
+    }
+    .about-work-head h1{
+        font-size:25px;
+        width: 100%;
+        line-height: 1.3;
+        text-align: center;
+    }
+    .img-about {
+        display: none;
+    }
+    /* about connect */
+    .connect-head{
+        padding: 0;
+        margin: 0;
+    }
+    .connect-head h1{
+        font-size:28px;
+    }
+    .connect-text {
+        padding:0 ;
+    }
+    .connect-text p{
+        font-size:18px;
+    }
+    /* footer page */
+    .footer-form input{
+        width:60%;
+        height: 40px;
+    }
+}

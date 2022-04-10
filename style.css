@@ -1,16 +1,22 @@
-.navbar{
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.nav-bar{
     position: relative;
 }
-.nav-item a{
+.nav-list a{
 	color:#87AAAA;
-	padding: 0px;
 	font-size: 18px;
 }
-.nav-btn{
-   color:white;
-   background-color: #EDB161;
-   margin:0;
-   padding: 2px 10px;
+.nav-btn a{
+    color:white;
+    background-color: #EDB161;
+    margin:0;
+    padding: 10px;
+    text-decoration: none;
 }
 .nav-btn:hover{
     text-decoration: none;
@@ -30,4 +36,1134 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+} 
+
+/* Home page  */
+.HomePage {
+    padding-top: 90px;
+}
+.home-soc{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.home-icons{
+    margin: 10px 20px;
+}
+.home-icons i{
+    padding: 10px;
+    font-size: 25px;
+}
+.icon-line{
+    border-right:2px solid #EDB161;
+    height: 190px;
+    width: 2px;
+}
+.home-text{
+    text-transform: capitalize;
+    width: 500px;
+    color:#47645D;
+}
+.home-text h1{
+    font-size: 50px;
+}
+.home-text h4{
+    color:#87AAAA;
+    font-size: 15px;
+    margin-top:30px;
+    width: 400px;
+}
+.home-text, .home-img{
+    margin:0 auto;
+    position: relative;
+}
+/* Jaydeep Ravat */
+.service, .about {
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.custom-active {
+    border-left: 2px solid #EDB161;
+    border-image: linear-gradient(to top, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+    border-bottom: 2px solid black;
+    border-image: linear-gradient(to right, #EDB161 50%, rgba(0,0,0,0) 50%); 
+    border-image-slice: 1;
+} /* 50% border left and bottom */
+.img-about {
+    width: 100%;
+    height: 200px;
+    background: url('images/about-us-rect.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.pink-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f8f1e7;
+    opacity: 0.8;
+}
+.r-text1 p {
+    color: #EDB161;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.row-about{
+    margin-top: 5rem;
+}
+.img-custom {
+    width: 80%;
+    height: 280px;
+    background: url('images/about-img.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.orange-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(237, 177, 97, 0) 20%, rgba(237, 177, 97, 0.4) 80%);
+}
+.l-text {
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+    -webkit-text-stroke: 2px #87AAAA;
+}
+.r-text2 {
+    color: #87AAAA;
+}
+.connect-text {
+    display: flex;
+    margin-top: 50px;
+}
+.connect-text div {
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #EDB161;
+}
+.connect-text i {
+    color: white;
+    font-size: 25px;
+    padding:9px;
+}
+.connect-text p {
+    color: #EDB161;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.service h2{
+    font-size: 46px;
+    color: #EDB161;
+}
+.h-line {
+    margin-top: 40px;
+    width: 100%;
+    height: 1px;
+    background-color: #87AAAA;
+}
+.container h2{
+    text-transform: capitalize;
+}
+.outer-circle {
+    border: 2px solid #EDB161;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 60px auto 0 auto;
+    position: relative;
+}
+.inner-text{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.inner-text span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    transform-origin: 0 60px;
+}
+.inner-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    background-color: #f8f1e7;
+}
+.inner-circle i {
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    transform: rotate(60deg);
+}
+.v-line {
+    height: 100%;
+    width: 2px;
+    background-color: #87AAAA;
+    display: block;
+    margin: 0 auto;
+}
+.service-text {
+    color: #87AAAA;
+    padding-top: 40px;
+}
+.all-service {
+    position: absolute;
+    font-size: 55px;
+    left: 0;
+    line-height: 1;
+    bottom: -15%;
+    color: white;
+    -webkit-text-stroke: 1px #87AAAA;
+    word-wrap: break-word;
+}
+.blue-img {
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+.blue-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #87AAAA -60.91%, rgba(135, 170, 170, 0) 100%);
+}
+.blue-overlay img{
+    width:100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.title {
+    position: absolute;
+    margin: 30px -30px;
+    padding: 10px;
+    background-color: #EDB161;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.details {
+    position: absolute;
+    bottom: 0;
+    padding: 0 20px;
+    color:black;
+    font-weight: 900;
+}    
+
+/* Portfolio :Helly shah */
+.port-sec{
+    display: block;
+}
+.port-sec h2{
+    text-align:center;
+    text-transform: capitalize;
+    color: #EDB161;
+    font-weight: 700;
+}
+.port-head{
+    text-align:center;
+    display: flex;
+    align-items: center;
+    margin:0 25rem;
+}
+.port-line{
+    border-right: 3px dashed black;
+    height: 100px;
+    width: fit-content;
+    display: block;
+    margin: 10px auto 0;
+}
+.cir {
+    background-color: #C78A53;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    margin: 2px auto;
+}
+.port-head h5{
+    color:#87AAAA;
+    font-size: 20px;
+    line-height: 100px;
+    margin-right: 20px;
+}
+/* Jaydeep Ravat */
+.i-cont {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.i-cont h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    font-weight: 700;
+    padding:10px 0;
+}
+.i-cont h4 {
+    position: absolute;
+    top: 9%;
+    left: 0;
+    color: #EDB161;
+    padding:10px 0;
+}
+.i-cont .p-grey {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    background-color: grey;
+}
+.i-1 {
+    margin-top: 15px;
+}
+.i-2 {
+    margin-top: 120px;
+}
+.custom-nav {
+    text-align: center;
+}
+.custom-nav button {
+    margin: 0 40px;
+    background-color: #EDB161;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Comments:  Helly shah */
+.comment-cont{
+    margin-top:8rem;
+}
+.coment-head h1{
+    margin:0 50px;
+    text-transform: capitalize;
+    color: #EDB161;
+    font-weight: 700;
+    width: 70%;
+}
+.coment-para p{
+    color:#87AAAA;
+    margin:15px 0;
+    width: 80%;
+}
+.coment-sec{
+    margin:4rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coment-1{
+    background-color:#93b8b8;
+    width:100%;
+    text-align: center;
+    margin: 20px 10px;
+    border: 25px solid #cbe4e4;
+    border-radius: 200px;
+    padding: 20px;
+}
+.coment-1 img{
+    width: 45px;
+    height: 55px;
+    padding:0 0 10px 0;
+    margin:-55px 0 5px;
+}
+.coment-1 h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.coment-1 p{
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+    text-align: left;
+    margin: 10px;
+}
+.coment-2{
+    background-color:#93b8b8;
+    width: 100%;
+    text-align: center;
+    margin: 20px 10px;
+    border: 25px solid #cbe4e4;
+    border-radius: 200px;
+    padding: 30px;
+}
+.coment-2 img{
+    width: 65px;
+    height: 75px;
+    padding:0 0 10px 0;
+    margin:-55px 0 20px;
+}
+.coment-2 h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.coment-2 p{
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+    text-align:left ;
+    margin:25px;
+}
+/* footer */
+.footer-top{
+    background-color: #fcf3ed;
+    padding: 10px;
+}
+.footer-sec img{
+    margin:20px 0 25px;
+    width: 100px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon i,p{
+    margin: 10px 10px;
+    color:#47645D;
+}
+.footer-comp h3{
+    font-size:20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-comp p{
+    margin: 20px;
+    text-transform: uppercase;
+}
+.footer-connect h2{
+    color: #EDB161;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+}
+.input-container i {
+    background: #EDB161;
+    color: white;
+    min-width: 40px;
+    padding: 10px;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-left: -50px;
+    text-align: center;
+}
+.footer-form input{
+    border: 2px solid black;
+    width:70%;
+    outline: none;
+    height: 50px;
+    background-color: #fcf3ed;
+    padding: 10px 20px;
+}
+.footer-bottom{
+    background-color: #EDB161;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 16px;
+}
+
+/* Media Queries */
+@media only  screen  and  (max-width:992px) {
+    /* nav bar */
+    .nav-list a{
+        font-size:15px;
+    }
+    .nav-img {
+        width: 130px;
+        height: 137px;
+    }
+    .nav-img img{
+        width: 90px;
+        height: 97px;
+    } 
+    .nav-btn{
+        font-size: 15px;
+    }
+    /* home page*/
+    .home-icons i{
+        padding: 6px;
+        font-size: 15px;
+    }
+    .icon-line{
+        height: 120px;
+        width: 2px;
+    }
+    .home-text{
+        width: 300px;
+    }
+    .home-text h1{
+        font-size: 30px;
+    }
+    .home-text h4{
+        font-size: 12px;
+        margin-top:30px;
+        width: 250px;
+    }
+    .home-img img{
+        width:300px;
+        height: 323px;
+    }
+    /* About page and service page */
+    .img-about {
+        width: 100%;
+        height: 150px;
+        margin-top: 15px;
+    } 
+    .r-text1 p{
+        margin-top: 3rem;
+        font-size: 20px;
+        line-height: 1.3;
+    } 
+    .img-custom {
+        width: 100%;
+        height: 200px;
+    }  
+    .l-text {
+        font-size: 50px;
+    }
+    .r-text2 {
+       font-size: 15px;
+       margin: 0 15px;
+    }
+    .connect-text {
+        margin-top: 20px;
+    }
+    .connect-text div {
+        width: 50px;
+        height: 35px;
+    }
+    .connect-text i {
+        font-size: 15px;
+        padding:9px;
+    }
+    .connect-text p {
+        margin-top: 2px;
+        font-size: 20px;
+    }
+    .service h2{
+        font-size: 38px;
+    }
+    .outer-circle {
+        width: 120px;
+        height: 120px;
+        margin: 50px auto 0 auto;
+    }
+    .inner-text span {
+        font-size: 20px;
+        transform-origin: 0 52px;
+    }
+    .inner-circle {
+        width: 40px;
+        height: 40px;
+    }
+    .inner-circle i {
+        margin-left: 8px;
+        margin-top: 8px;
+        font-size: 25px;
+    }
+    .service-text {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .all-service {
+        font-size: 38px;
+        line-height: 1;
+        bottom: 25%;
+    }
+    .blue-img {
+        width: 100%;
+        height: 350px;
+    }
+    .title {
+        margin: 30px -15px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .details {
+        padding:0 15px;
+        bottom: 27%;
+        font-size: 12px;
+    }
+    /* portfolio page */
+    .port-head{
+        margin:0 4rem;
+    }
+    .port-sec h2{
+        line-height: 1;
+    }
+    .port-line h5{
+        font-size: 25px;
+    }
+     .i-cont {
+        margin-top:2rem;
+        width: 100%;
+        height: 500px;
+    }
+    .i-cont h4 {
+        font-size: 15px;
+    }
+    .i-1, .i-2 {
+        margin-top: 10px;
+    }
+    .custom-nav button {
+        margin: 0 20px;
+       text-align: center;
+    } 
+    /* comments page */
+    .comments{
+        margin-top:5rem;
+    }
+    .coment-head h1{
+        margin:0 5px;
+        width: 100%;
+        font-size: 30px;
+    }
+    .coment-para p{
+        margin: 15px 0;
+        width: 100%;
+        font-size: 13px;
+    }
+    .coment-sec{
+        margin:2rem 0.5rem;
+    }
+    .coment-1 img, .coment-2 img{
+        width: 45px;
+        height: 55px;
+        padding:0 0 10px 0;
+    }
+    .coment-1 h3, .coment-2 h3{
+        font-size: 15px;
+    }
+    .coment-1 p, .coment-2 p{
+        font-size: 12px;
+        margin: 10px;
+    }
+    /* footer page */
+    .footer-sec img{
+        width: 80px;
+    }
+    .footer-icon i,p{
+        margin: 5px;
+        font-size: 12px;
+    }
+    .footer-comp h3{
+        font-size:18px;
+    }
+    .footer-comp p{
+        margin: 12px;
+    }
+    .footer-connect h2{
+        font-size: 20px;
+    }
+    .input-container i {
+        padding: 8px;
+        height: 35px;
+        margin-top: 8px;
+    }
+    .footer-form input{
+        width:80%;
+    }
+    .footer-bottom p{
+        font-size: 13px;
+    }
+}
+
+@media only screen  and (max-width:768px) {
+    /* nav bar */
+    .nav-list a{
+        font-size:12px;
+    }
+    .nav-img{
+        width:90px;
+        height: 97px;
+    }
+    .nav-img img{
+        width: 70px;
+        height: 77px;
+    } 
+    .nav-btn a{
+        font-size: 12px;
+        padding:5px;
+    }
+    /* home page */
+    .HomePage {
+        padding-top: 40px;
+    }
+    .home-icons{
+        margin: 6px 10px;
+    }
+    .home-icons i{
+        padding: 4px;
+        font-size: 12px;
+    }
+    .icon-line{
+        height: 90px;
+        width: 2px;
+    }
+    .home-text h1{
+        font-size: 25px;
+    }
+    .home-text h4{
+        font-size: 10px;
+        margin-top:15px;
+        width: 200px;
+    }
+    .home-img img{
+        width: 230px;
+        height: 253px;
+    }
+    /* about and service page */
+    .img-about {
+        width: 100%;
+        height: 100px;
+        margin-top: 15px;
+    } 
+    .r-text1 p{
+        margin-top: 25px;
+        font-size: 18px;
+    } 
+    .row-about{
+        margin-top: 3rem;
+    }
+    .img-custom {
+        width: 80%;
+        height: 180px;
+    }  
+    .l-text {
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .r-text2 {
+       margin: 20px 10px;
+       padding: 0;
+       width:100%;
+    }
+    .r-text2 p{
+        font-size: 15px;
+    }
+    .connect-text {
+        margin-top: 20px;
+        margin-left: 12rem;
+    }
+    .connect-text div {
+        width: 45px;
+        height: 35px;
+        margin-right: 5px;
+    }
+    .connect-text i {
+        font-size: 18px;
+        padding:8px;
+    }
+    .connect-text p {
+        margin-top: 3px;
+        font-size: 18px;
+    }
+    .service h2{
+        font-size: 30px;
+        line-height: 1;
+    }
+    .h-line {
+        margin-top: 20px;
+    }
+    .outer-circle {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto 0 auto;
+    }
+    .inner-text{
+        width: 100%;
+        height: 100%;
+    }
+    .inner-text span {
+        font-size: 15px;
+        transform-origin: 0 42px;
+    }
+    .inner-circle {
+        width: 30px;
+        height: 30px;
+    }
+    .inner-circle i {
+        margin-left: 6px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .service-text {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .all-service {
+        font-size: 35px;
+        line-height: 1;
+        bottom: 30%;
+        margin-left: -30px;
+    }
+    .blue-img {
+        width: 105%;
+        height: 350px;
+        margin:0 20px;
+    }
+    .title {
+        margin: 30px -15px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .details {
+        bottom: 35%;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    /* portfolio page */
+    .port-sec h2{
+        font-size: 28px;
+    }
+    .port-head{
+        margin:  1rem 1rem 0; 
+    }
+    .port-line{
+        margin: 0 1rem;
+    }
+    .port-line h5{
+        font-size: 25px;
+    }
+    .i-cont {
+        width: 50%;
+        height: 400px;
+        margin: 3rem auto;
+    }
+    .i-cont h2 {
+        font-size: 25px;
+    }
+    .i-cont h4 {
+        font-size: 15px;
+    }
+    .i-cont .p-grey {
+        width: 300px;
+        height: 400px;
+    }
+    .i-1, .i-2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .custom-nav button {
+        margin: 0 10px;
+        text-align: center;
+    }
+    /* comments page */
+    .coment-head h1{
+        margin:0 5px;
+        font-size: 28px;
+    }
+    .coment-para p{
+        margin: 10px 5px;
+        font-size: 12px;
+    }
+    .coment-sec{
+        margin:2rem 0.5rem;
+    }
+    .coment-1, .coment-2{
+        width:100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    .coment-1 img, .coment-2 img{
+        width: 45px;
+        height: 55px;
+        padding:0 0 10px 0;
+    }
+    .coment-1 h3, .coment-2 h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .coment-1 p, .coment-2 p{
+        font-size: 13px;
+        margin: 5px;
+    }
+    /* footer page */
+    .footer-comp p{
+        margin: 12px;
+        line-height: 1;
+    }
+    .footer-connect{
+        text-align: center;
+    }
+    .input-container{
+        display: flex;
+        justify-content: center;
+    }
+    .input-container i {
+        min-width: 30px;
+        padding: 5px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .footer-form input{
+        width:50%;
+        height: 40px;
+    }
+}
+@media only screen and (max-width:575px){
+    /* navbar */
+    .nav-list a{
+        font-size:10px;
+    }
+    .nav-img{
+        width:80px;
+        height: 87px;
+        margin-left:-35px;
+    }
+    .nav-img img{
+        width: 60px;
+        height: 67px;
+    } 
+    .nav-btn a{
+        font-size: 12px;
+        padding:5px;
+    }
+    .custom-active {
+        padding:0 5px;
+    }
+    .nav-btn{
+        margin:0 -10px;
+    }
+    /* home page */
+    .HomePage {
+        padding-top: 30px;
+    }
+    .home-soc{
+        top:0;
+    }
+    .home-icons{
+        margin: 4px 5px;
+    }
+    .home-icons i{
+        padding: 4px;
+        font-size: 10px;
+    }
+    .icon-line{
+        height: 70px;
+        width: 2px;
+        margin:4px -2px;
+    }
+    .home-text{
+        width: 350px;
+    }
+    .home-text h1{
+        font-size: 22px;
+    }
+    .home-text h4{
+        font-size: 10px;
+        margin:20px 0;
+        width: 300px;
+    }
+    .home-img {
+        width: 250px;
+        height: 273px;
+        padding:2rem auto ;
+    }
+    /* about and service page */
+    .img-about {
+        display: none;
+    } 
+    .r-text1 p{
+        font-size:22px;
+        line-height: 1.3;
+        width:100%;
+    } 
+    .row-about{
+        margin-top: 0;
+    }
+    .img-custom {
+        width: 70%;
+        height: 250px;
+        margin:0 auto;
+    }  
+    .l-text {
+        font-size: 50px;
+        width:100%;
+    }
+    .r-text2 p{
+       font-size: 14px;
+       width: 100%;
+       padding-top: 10px;
+       margin:0 -5px;
+    }
+    .connect-text {
+        margin-top: 10px;
+        margin-left:7rem;
+    }
+    .connect-text div {
+        width: 40px;
+        height: 30px;
+    }
+    .connect-text i {
+        font-size: 14px;
+        padding:8px;
+    }
+    .connect-text p {
+        margin-top: 2px;
+        font-size: 20px;
+        padding:0 10px;
+    }
+    .service h2{
+        font-size: 30px;
+        line-height: 1;
+    }
+    .h-line {
+        margin-top: 20px;
+    }
+    .outer-circle {
+        width: 100px;
+        height: 100px;
+        margin: 30px auto 0 auto;
+    }
+    .inner-text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .inner-text span {
+        transform: translate(-30%, -30%);
+        font-size: 15px;
+        transform-origin: 0 42px;
+    }
+    .inner-circle {
+        width: 30px;
+        height: 30px;
+    }
+    .inner-circle i {
+        margin-left: 6px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .service-text {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .all-service {
+        font-size: 40px;
+        line-height: 1;
+        bottom:-50px;
+        text-align: center;
+        left:100px;
+        margin-top: 10px;
+    }
+    .blue-img {
+        width: 80%;
+        height: 300px;
+        margin: 4rem 0;
+    }
+    .title {
+        margin: 30px -20px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .details {
+        padding: 0 10px;
+        font-size: 12px;
+        bottom:10%;
+    }
+    /* portfolio page */
+    .port-sec h2{
+        font-size: 25px;
+    }
+    .port-line{
+        margin:0 1rem;
+    }
+    .cir{
+        margin: 2px 13px;
+    }
+    .port-line h5{
+        font-size: 20px;
+    }
+    .i-cont {
+        margin-top:2rem;
+        width: 50%;
+        height: 450px;
+    }
+    .i-cont h2 {
+        font-size: 20px;
+    }
+    .i-cont h4 {
+        font-size: 15px;
+    }
+    .i-cont .p-grey {
+        width: 300px;
+        height: 400px;
+    }
+    .i-1, .i-2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .custom-nav button {
+        margin: 10px;
+        text-align: center;
+    }
+    /* comments page */
+    .coment-head h1{
+        margin:0px;
+        width: 100%;
+        font-size: 32px;
+    }
+    .coment-para p{
+        margin: 10px 2px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .coment-sec{
+        margin:2rem 0.5rem;
+    }
+    .coment-1, .coment-2{
+        width:100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    .coment-1 img, .coment-2 img{
+        width: 45px;
+        height: 55px;
+        padding:0 0 10px 0;
+        margin:-55px 0 5px;
+    }
+    .coment-1 h3, .coment-2 h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .coment-1 p, .coment-2 p{
+        font-size: 13px;
+        margin: 5px;
+    }
+    /* footer page */
+    .footer-form input{
+        width:60%;
+        height: 40px;
+    }
 }
