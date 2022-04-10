@@ -126,18 +126,20 @@ html, body {
     text-align: center;
     font-weight: 700;
     text-transform: capitalize;
+    margin-top:20px;
 }
 .our-service{
     position: relative;
     margin:6rem auto 0;
 }
 .blue-img {
-    width: 50%;
-    height: 300px;
+    width: 60%;
+    height: 350px;
     background: url('./images/ser-img2.png');
     background-size: cover;
     position: relative;
     margin:2rem auto 0;
+    opacity: 0.8;
 }
 .blue-overlay {
     position: absolute;
@@ -151,7 +153,6 @@ html, body {
     width: 45%;
     height: 300px;
     margin:2rem auto 0;
-    opacity: 0.8;
 }
 .blank-overlay{
     background-color: white;
@@ -163,12 +164,14 @@ html, body {
     background-color: #EDB161;
     color: white;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 900;
 }
 .details {
     position: absolute;
     bottom: 0;
     padding: 10px 20px;
+    color: black;
+    font-weight: 800;
 }
 .ser-line{
     border-right: 2px dashed #EDB161;
@@ -333,7 +336,7 @@ html, body {
         margin:4rem auto;
     }
     .blue-img {
-        width: 55%;
+        width: 65%;
     }
     .title {
         font-size: 20px;
@@ -471,12 +474,14 @@ html, body {
     }
     .connect-head h1{
         font-size:30px;
+        text-align: center;
     }
     .connect-head p{
         font-size: 15px;
+        text-align: left;
     }
     .connect-text {
-        padding:0 8rem;
+        padding:0 6.5rem;
     }
     .connect-text p{
         font-size:22px;
@@ -565,7 +570,7 @@ html, body {
         font-size:26px;
     }
     .connect-text {
-        padding:0 4rem;
+        padding:0 1rem;
     }
     .connect-text p{
         font-size:18px;

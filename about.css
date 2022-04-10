@@ -73,77 +73,39 @@ html, body {
     margin:5rem auto;
     padding: 10px;
 }
+.about-service-img2 img{
+    width: 420px;
+    height: 420px;
+    margin-left:8rem;   
+}
 .about-service-img1{
-    margin: 0 10px;
-    float:right;
-} 
-.ser-img1{
-    width: 217px;
-    height: 232px;
+    width:10%;
+    margin-left:-10px;
 }
 .ser-img2{
-    width: 105px;
-    height: 115px;
-    padding:3rem 0 3rem 8rem;
-}
-.about-service-img2 img{
-    width:500px;
-    height: 500px;
-    margin:0;
-    padding: 10px 30px;
+    margin-left: 130px;
 }
 .about-service-head{
-    margin:3rem;
-    padding: 0 8rem;
-    width: 681px;
-    height: 517px;
+    margin:auto 0;
+    margin-left: 18rem;
+    width: 700px;
 }
 .about-service-head h2{
     color:#EDB161;
     text-transform: capitalize;
     font-weight: 700;
+    font-size: 40px;
 }
 .about-service-head p{
     color:#87AAAA;
     font-weight: 700;
-    margin-top:2rem;
+    margin-top:1.5rem;
 }
-/* .about-service-img1{
-    margin: 0 10px;
-    float:right;
-}
-.ser-img1 img{
-    width: 117px;
-    height: 132px;
-}
-.ser-img2 img{
-    width: 215px;
-    height: 215px;
-    padding: 0 5rem 0 0;
-}
-.about-service-img2 img{
-    width:300px;
-    height: 300px;
-    margin:0;
-    padding: 0;
-}
-.about-service-head{
-    margin:3rem 0;
-    padding: 0 ;
-    width: 681px;
-    height: 517px;
-}
-.about-service-head h2{
-    color:#EDB161;
-    text-transform: capitalize;
-    font-weight: 700;
-}
-.about-service-head p{
-    color:#87AAAA;
-    font-weight: 700;
-    margin-top:2rem;
-} */
+
 /* About Numbers page */
+.about-numbers{
+    margin:0 15px;
+}
 .about-numbers-head{
     color:#EDB161;
     font-weight: 700;
@@ -169,6 +131,7 @@ html, body {
 }
 .about-numbers-client{
     padding:0 2rem;
+    margin-left: -10px;
 }
 .about-numbers-client h4{
     color:#35656D;
@@ -364,6 +327,30 @@ html, body {
     font-size: 16px;
 }
 /* Media Queries */
+@media screen and (max-width:1200px){
+    /* about-us service */
+    .about-service-img2 img{
+        width:350px;
+        height:350px;
+        margin-left: 6rem;
+    }
+     .about-service-img1{
+        width:10%;
+        margin-left: -30px;
+    }
+    .ser-img1 img{
+        width: 200px;
+    }
+    .ser-img2{
+        margin-left: 80px;
+    }
+    .ser-img2 img{
+        width: 100px;
+    }
+    .about-numbers-head{
+        width: 400px;
+    }
+}
 @media only screen and (max-width:992px){
     /* navbar */
     .nav-list a{
@@ -397,59 +384,37 @@ html, body {
         margin-bottom: 0;
     }
     /* AboutUs-service */
-    .ser-img2 img{
-        padding: 0 2rem;
-        width:200px;
-        height: 60px;
-    }
-    .about-service-img1 img{
-        width:100%;
-        height: auto;
-    }
     .about-service-img2 img{
-        width:100%;
-        height: auto;
-    }
-    .about-service-head h2{
-        width:70%;
-        font-size:25px;
-        margin:10px auto;
-    }
-    .about-service-head p{
-        width: 70%;
-        font-size:12px;
-        margin:20px auto ;
-    }
-    /* .about-service{
-        margin:4rem auto;
+        width:280px;
+        height:280px;
+        margin-left: 4rem;
     }
     .about-service-img1{
-        width:20%;
-        height: auto;
+        margin-left: -30px;
     }
-    .ser-img1{
-        width:170px;
-        height: 162px;
+    .ser-img1 img{
+        width: 150px;
+    }
+    .ser-img2 img{
+        width:70px ;
     }
     .ser-img2{
-        padding: 0;
-        width:150px;
-        height: 60px;
+        margin-left: 60px;
     }
-    .about-service-img2{
-        width:20%;
-        height: auto;
+    .about-service-head{
+        width:350px;
+        margin-left:10rem;
     }
     .about-service-head h2{
-        width:70%;
+        width:100%;
         font-size:25px;
         margin:10px auto;
     }
     .about-service-head p{
-        width: 70%;
+        width: 100%;
         font-size:12px;
         margin:20px auto ;
-    } */
+    } 
     /* about numbers */
     .about-numbers-para {
         width:40%;
@@ -566,30 +531,35 @@ html, body {
         padding: 4rem 0 2rem; 
     }
     /* AboutUs-service */
-    .about-service-img1 img{
-        margin: 0 0 0 2rem;
-        width:80%;
+    .about-service-img2 img{
+        width:350px;
+        height:350px;
+    }
+    .about-service-img2{
+        margin: 0 70px;
+    }
+    .about-service-img1{
+        margin-left: 10px;
+    }
+    .ser-img1 img{
+        width: 200px;
     }
     .ser-img2 img{
-        width:100%;
-        height: 90px;
-        padding:0 3rem;
-        margin: 0;
+        width:100px ;
     }
-    .about-service-img2 img{
+    .ser-img2{
+        margin-left: 80px;
+    }
+    .about-service-head{
         width:100%;
-        height: auto;
+        margin:30px 10px;
     }
     .about-service-head h2{
-        width:100%;
-        font-size:24px;
-        margin: 0 15px ;
+        font-size:30px;
     }
     .about-service-head p{
-        width: 90%;
-        font-size:10px;
-        margin:20px auto ;
-    }
+        font-size:13px;
+    } 
     /* About Numbers page */
     .about-numbers-head{
         margin-top:2rem;
@@ -632,7 +602,8 @@ html, body {
     }
     /* about connect */
     .connect-head h1{
-        font-size:32px;
+        font-size:30px;
+        text-align: center;
     }
     .connect-text {
         padding:0 4rem;
@@ -682,40 +653,26 @@ html, body {
         margin-right: 10px;
     }
     /* AboutUs-service */
-    .about-service-img1 {
-        /* width:100%; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
+    .about-service-img2 img{
+        width:220px;
+        height:220px;
+        margin: 0 ;
     }
-    .ser-img1{
-        width:80%;
-        height: 50%;
+    .about-service-img2{
+        margin-right: -15rem;
+    }
+    .about-service-img1{
+        margin:15px 30px 10px -15px;
+    }
+    .ser-img1 img{
+        width: 120px;
+    }
+    .ser-img2 img{
+        width:50px ;
     }
     .ser-img2{
-        width:60%;
-        height: 50%;
-        padding: 1rem;
-    }
-    .about-service-img2 img{
-        width: 300px;
-        height: 300px;
-    }
-    .about-service-head{
-        margin:2rem 0;
-        padding: 0;
-    }
-    .about-service-head h2{
-        width:100%;
-        font-size:30px;
-        margin: 0 5px ;
-    }
-    .about-service-head p{
-        width: 100%;
-        font-size:12px;
-    }
+        margin-left: 50px;
+    } 
     /* About Numbers page */
     .about-numbers-para{
         width:100%;

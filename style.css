@@ -91,7 +91,6 @@ html, body {
     border-image: linear-gradient(to right, #EDB161 50%, rgba(0,0,0,0) 50%); 
     border-image-slice: 1;
 } /* 50% border left and bottom */
-
 .img-about {
     width: 100%;
     height: 200px;
@@ -115,6 +114,9 @@ html, body {
     font-weight: 700;
     text-transform: capitalize;
 }
+.row-about{
+    margin-top: 5rem;
+}
 .img-custom {
     width: 80%;
     height: 280px;
@@ -122,7 +124,6 @@ html, body {
     background-size: cover;
     overflow: hidden;
     position: relative;
-
 }
 .orange-overlay {
     position: absolute;
@@ -142,7 +143,6 @@ html, body {
     color: #87AAAA;
 }
 .connect-text {
-    color: #EDB161;
     display: flex;
     margin-top: 50px;
 }
@@ -159,6 +159,7 @@ html, body {
     padding:9px;
 }
 .connect-text p {
+    color: #EDB161;
     margin-top: 15px;
     font-size: 25px;
 }
@@ -239,7 +240,6 @@ html, body {
 .blue-img {
     width: 80%;
     height: 400px;
-    /* background: url('./images/ser-img2.png'); */
     background-size: cover;
     position: relative;
 }
@@ -252,7 +252,7 @@ html, body {
 .blue-overlay img{
     width:100%;
     height: 100%;
-    /* opacity: 0.8; */
+    opacity: 0.5;
 }
 .title {
     position: absolute;
@@ -267,6 +267,8 @@ html, body {
     position: absolute;
     bottom: 0;
     padding: 0 20px;
+    color:black;
+    font-weight: 900;
 }    
 
 /* Portfolio :Helly shah */
@@ -594,20 +596,21 @@ html, body {
     .all-service {
         font-size: 38px;
         line-height: 1;
-        bottom: -5%;
+        bottom: 25%;
     }
     .blue-img {
-        width: 95%;
+        width: 110%;
         height: 350px;
     }
     .title {
-        margin: 30px -20px;
+        margin: 30px -15px;
         padding: 10px;
         font-size: 15px;
     }
     .details {
-        padding: 0 20px;
-        font-size: 15px;
+        padding:0 15px;
+        bottom: 20%;
+        font-size: 12px;
     }
     /* portfolio page */
     .port-head{
@@ -747,34 +750,43 @@ html, body {
         margin-top: 25px;
         font-size: 18px;
     } 
+    .row-about{
+        margin-top: 3rem;
+    }
     .img-custom {
-        width: 90%;
-        height: 150px;
+        width: 80%;
+        height: 180px;
     }  
     .l-text {
-        font-size: 35px;
+        font-size: 50px;
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
     }
     .r-text2 {
-       font-size: 10px;
-       margin: 0;
+       margin: 20px 10px;
        padding: 0;
-       width:50%;
+       width:100%;
+    }
+    .r-text2 p{
+        font-size: 15px;
     }
     .connect-text {
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-left: 12rem;
     }
     .connect-text div {
-        width: 40px;
-        height: 25px;
+        width: 45px;
+        height: 35px;
         margin-right: 5px;
     }
     .connect-text i {
-        font-size: 12px;
-        padding:5px;
+        font-size: 18px;
+        padding:8px;
     }
     .connect-text p {
-        margin-top: 2px;
-        font-size: 15px;
+        margin-top: 3px;
+        font-size: 18px;
     }
     .service h2{
         font-size: 30px;
@@ -810,13 +822,15 @@ html, body {
         font-size: 12px;
     }
     .all-service {
-        font-size: 32px;
+        font-size: 35px;
         line-height: 1;
-        bottom: -5%;
+        bottom: 30%;
+        margin-left: -30px;
     }
     .blue-img {
-        width: 90%;
+        width: 110%;
         height: 350px;
+        margin:0 20px;
     }
     .title {
         margin: 30px -15px;
@@ -824,6 +838,7 @@ html, body {
         font-size: 15px;
     }
     .details {
+        bottom: 30%;
         padding: 0 10px;
         font-size: 12px;
     }
@@ -924,6 +939,7 @@ html, body {
     .nav-img{
         width:80px;
         height: 87px;
+        margin-left:-35px;
     }
     .nav-img img{
         width: 60px;
@@ -933,8 +949,11 @@ html, body {
         font-size: 12px;
         padding:5px;
     }
-    .custom-active{
-        padding: 2px ;
+    .custom-active {
+        padding:0 5px;
+    }
+    .nav-btn{
+        margin:0 -10px;
     }
     /* home page */
     .HomePage {
@@ -953,7 +972,7 @@ html, body {
     .icon-line{
         height: 70px;
         width: 2px;
-        margin:4px;
+        margin:4px -2px;
     }
     .home-text{
         width: 350px;
@@ -980,25 +999,31 @@ html, body {
         line-height: 1.3;
         width:100%;
     } 
+    .row-about{
+        margin-top: 0;
+    }
     .img-custom {
-        width: 30%;
-        height: 100px;
+        width: 70%;
+        height: 250px;
+        margin:0 auto;
     }  
     .l-text {
-        font-size: 25px;
-        width:50%;
+        font-size: 50px;
+        width:100%;
     }
     .r-text2 p{
-       font-size: 12px;
-       width: 200%;
+       font-size: 14px;
+       width: 100%;
+       padding-top: 10px;
+       margin:0 -5px;
     }
     .connect-text {
         margin-top: 10px;
+        margin-left:7rem;
     }
     .connect-text div {
         width: 40px;
         height: 30px;
-        margin-right: 5px;
     }
     .connect-text i {
         font-size: 14px;
@@ -1006,7 +1031,8 @@ html, body {
     }
     .connect-text p {
         margin-top: 2px;
-        font-size: 18px;
+        font-size: 20px;
+        padding:0 10px;
     }
     .service h2{
         font-size: 30px;
@@ -1041,17 +1067,20 @@ html, body {
     }
     .service-text {
         padding-top: 10px;
-        font-size: 12px;
+        font-size: 15px;
     }
     .all-service {
-        font-size: 35px;
+        font-size: 40px;
         line-height: 1;
-        bottom:-30px;
+        bottom:-50px;
+        text-align: center;
+        left:100px;
+        margin-top: 10px;
     }
     .blue-img {
-        width: 70%;
+        width: 80%;
         height: 300px;
-        margin:30px 50px;
+        margin: 4rem 0;
     }
     .title {
         margin: 30px -20px;
@@ -1061,6 +1090,7 @@ html, body {
     .details {
         padding: 0 10px;
         font-size: 12px;
+        bottom:10%;
     }
     /* portfolio page */
     .port-sec h2{
