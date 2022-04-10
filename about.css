@@ -86,8 +86,8 @@ html, body {
     margin-left: 130px;
 }
 .about-service-head{
-    margin:auto 0;
-    margin-left: 18rem;
+    margin:auto; 
+    margin-left: 12rem;
     width: 700px;
 }
 .about-service-head h2{
