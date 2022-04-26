@@ -1,3 +1,4 @@
+<?php include 'sentMail.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,18 +57,18 @@
                     <h1>Get In Touch</h1>
                     <div class="h-line"></div>
                     <div class="cont-icons">
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-dribbble"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                        <i class="fab fa-behance"></i>
+                        <a href="https://www.instagram.com/deadmadtechnologies/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://dribbble.com/Darshilgohel14"><i class="fab fa-dribbble"></i></a>
+                        <a href="https://www.linkedin.com/in/darshil-gohel-b5308296/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.behance.net/darshilgohel"><i class="fab fa-behance"></i></a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 cont-form text-center ">
-                    <form action="">
+                    <form action="sentMail.php" method="post" id="contact">
                         <div><input type="text" name="name" placeholder="Name"></div>
                         <div><input type="email" name="email" placeholder="Email"></div>
                         <div><textarea name="project" placeholder="Project Details" cols="50" rows="5"></textarea></div>
-                        <div><button type="submit">Submit</button></div>
+                        <div><button type="submit" name="submit">Submit</button></div>
                     </form>
                 </div>
             </div>
@@ -80,11 +81,7 @@
                 <img src="./images/Dm logo 1.png" alt="" >
                 <div class="footer-icon">
                     <div><i class="fas fa-envelope"></i></div>
-                    <p>dmtechnologies@gmail.com</p>
-                </div>
-                <div class="footer-icon">
-                    <div><i class="fas fa-phone-alt"></i></div>
-                    <p>+91 1234567890</p>
+                    <p>deadmadtechnologies @gmail.com</p>
                 </div>
             </div>
             <div class="col-md-3 text-center mt-4 footer-comp">
@@ -101,7 +98,7 @@
                 <form action="" class="mt-4 footer-form">
                     <div class="input-container">
                         <input type="email" name="email" placeholder="Enter your Email">
-                        <i class="fa fa-arrow-right"></i>
+                        <a href=""><i class="fa fa-arrow-right"></i></a>
                     </div>
                 </form>
             </div>

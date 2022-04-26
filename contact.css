@@ -76,10 +76,14 @@ html, body {
     width:50%;
     margin-bottom: 40px;
 }
+.cont-icons a{
+    text-decoration: none;
+}
 .cont-icons i{
     padding:0 40px 0 0;
     font-size: 20px;
     cursor: pointer;
+    color:black;
 }
 .cont-form{
     background-color: white;   

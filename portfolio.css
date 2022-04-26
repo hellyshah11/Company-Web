@@ -82,17 +82,23 @@ html, body {
     position: relative;
     overflow: hidden;
 }
+.i-cont a{
+    text-decoration: none;
+    color: black;
+}
 .p-grey img{
     width:350px;
     height: 500px;
 }
 .i-cont h2{
     color:#47645D;
-    margin:1rem 6rem 0.5rem 0;
+    margin:20px 0 10px;
+    text-align: center;
 }
 .i-cont h4{
     color:#EDB161;
-    margin: 0 8rem 0 0;
+    /* margin: 0 6rem 0 0; */
+    text-align: center;
 }
 .i-2 , .i-3{
     margin-top: -6rem;
@@ -273,6 +279,9 @@ html, body {
     .i-cont{
         margin-top: 20px;
     }
+    .i-cont h2{
+        margin:15px 0 5px;
+    }
     .i-1, .i-3{
         margin-left: 15rem;
     }
@@ -280,7 +289,7 @@ html, body {
         margin-right: 15rem;
     }
     .i-3{
-        margin-top: -1rem;
+        margin-top: 1rem;
     }
     /* footer page */
     .footer-comp p{
