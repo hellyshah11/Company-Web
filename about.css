@@ -282,6 +282,10 @@ html, body {
     margin: 10px 10px;
     color:#47645D;
 }
+.footer-icon a{
+    text-decoration: none;
+    color:#47645D;
+}
 .footer-comp h3{
     font-size:20px;
     font-weight: 700;
@@ -290,6 +294,10 @@ html, body {
 .footer-comp p{
     margin: 20px;
     text-transform: uppercase;
+}
+.footer-comp a{
+    text-decoration: none;
+    color:#47645D;
 }
 .footer-connect h2{
     color: #EDB161;
@@ -300,7 +308,7 @@ html, body {
     display: flex;
     width: 100%;
 }
-.input-container i {
+.input-container button {
     background: #EDB161;
     color: white;
     min-width: 40px;
@@ -310,6 +318,7 @@ html, body {
     margin-top: 5px;
     margin-left: -50px;
     text-align: center;
+    border: 1px solid #EDB161;
 }
 .footer-form input{
     border: 2px solid black;
@@ -489,10 +498,11 @@ html, body {
     .footer-connect h2{
         font-size: 20px;
     }
-    .input-container i {
-        padding: 8px;
+    .input-container button {
+        min-width: 20px;
         height: 35px;
-        margin-top: 8px;
+        margin-top: 7px;
+        margin-left: -45px;
     }
     .footer-form input{
         width:80%;
@@ -623,11 +633,12 @@ html, body {
         display: flex;
         justify-content: center;
     }
-    .input-container i {
-        min-width: 30px;
-        padding: 5px;
+    .input-container button {
+        min-width:35px;
         height: 30px;
         margin-top: 5px;
+        margin-left: -47px;
+        padding:0;
     }
     .footer-form input{
         width:50%;
